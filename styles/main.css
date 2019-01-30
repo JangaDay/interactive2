@@ -8,7 +8,7 @@ body {
 	font-size: 30px;
 	font-weight: normal;
 	background-color:lime;
-	font-color:white;
+	
 }
 
 /* this is a comment */
@@ -23,27 +23,23 @@ body {
 }
 
 h1 {
-	font-color:white;
 	font-size:40pt;
 }
 
 h1, 
 
 h2, h3 {
-	font-color:white;
 	margin: 20px 0;
     font-size:20pt;
 } 
 
 p {
-	font-color:white;
 	margin: 20px 0;
 	font-size:14pt;
 	line-height: 150%;
 }
 
 ul {
-	font-color:white;
 	list-style-type: none;
 }
 
