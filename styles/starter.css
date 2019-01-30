@@ -3,8 +3,8 @@ body {
 }
 
 .stage {
-	width: px;
-	height: px;
+	width: 900px;
+	height: 600px;
 	margin: 100px auto;
 	background: white;
 	position: relative;
@@ -22,8 +22,8 @@ body {
 }
 
 #square {
-	width: 900px;
-	height: 562px;
+	width: px;
+	height: px;
 	background: red;
 	top: 203px;
 	left: 270px;
