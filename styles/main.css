@@ -7,7 +7,8 @@ body {
 	font-family: 'Inconsolata', monospace;
 	font-size: 30px;
 	font-weight: normal;
-	background-color: lightblue
+	background-color: lightblue;
+	font-color:white;
 }
 
 /* this is a comment */
@@ -22,32 +23,32 @@ body {
 }
 
 h1 {
-	color:white;
+	font-color:white;
 	font-size:40pt;
 }
 
 h1, 
 
 h2, h3 {
-	color:white;
+	font-color:white;
 	margin: 20px 0;
     font-size:20pt;
 } 
 
 p {
-	color:white;
+	font-color:white;
 	margin: 20px 0;
 	font-size:14pt;
 	line-height: 150%;
 }
 
 ul {
-	color:white;
+	font-color:white;
 	list-style-type: none;
 }
 
 a {
-	color:white;
+	font-color:white;
 }
 
 a:hover {
