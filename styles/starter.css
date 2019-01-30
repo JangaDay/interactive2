@@ -2,6 +2,17 @@ body {
 	background: #cccccc;
 }
 
+   #table {
+      width: 459px;
+      height: 149px;
+      transform: skew(70deg);
+      background: rgb(189, 157, 130);
+      top: 283px;
+	  left: 249px;
+	  position: absolute;
+
+    }
+
 .stage {
 	width: 900px;
 	height: 600px;
@@ -30,6 +41,23 @@ body {
 	position: absolute;
 	transform: rotate(-9deg);
 
+
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+
+#leg1 {
+	width: 5px;
+	height: 100px;
+	background: rgb(189, 157, 130);
+	top: 212px;
+	left: 472px;
+	position: absolute;
+
+	
+
 	/* uncomment to add keyframe animation */
 	/* animation: spin 2s infinite; */
 
@@ -55,7 +83,7 @@ body {
 	  position: absolute;
 	  transform:rotate(-35deg);
     }
-
+      
 #clip {
 	width: ;
 	height: ;
