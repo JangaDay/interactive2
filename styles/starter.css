@@ -49,19 +49,43 @@ body {
 }
 
 #leg1 {
-	width: 5px;
-	height: 100px;
+	width: 20px;
+	height: 270px;
 	background: rgb(189, 157, 130);
-	top: 212px;
-	left: 472px;
+	top: 418px;
+	left: 433px;
 	position: absolute;
-
-	
-
-	/* uncomment to add keyframe animation */
-	/* animation: spin 2s infinite; */
-
 }
+
+#leg2 {
+	width: 20px;
+	height: 259px;
+	background: rgb(189, 157, 130);
+	top: 432px;
+	left: 889px;
+	position: absolute;
+}
+
+#leg3 {
+	width: 20px;
+	height: 270px;
+	background: rgb(189, 157, 130);
+	top: 284px;
+	left: 45px;
+	position: absolute;
+}
+
+#leg4 {
+	width: 20px;
+	height: 270px;
+	background: rgb(189, 157, 130);
+	top: 276px;
+	left: 553px;
+	position: absolute;
+}
+
+
+
 
 #circle {
 	width: 150px;
