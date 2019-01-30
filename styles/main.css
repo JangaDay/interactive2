@@ -22,29 +22,32 @@ body {
 }
 
 h1 {
-	color:black;
+	color:white;
 	font-size:40pt;
 }
 
 h1, 
 
 h2, h3 {
+	color:white;
 	margin: 20px 0;
     font-size:20pt;
 } 
 
 p {
+	color:white;
 	margin: 20px 0;
 	font-size:14pt;
 	line-height: 150%;
 }
 
 ul {
+	color:white;
 	list-style-type: none;
 }
 
 a {
-	color:black;
+	color:white;
 }
 
 a:hover {
