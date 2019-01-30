@@ -23,11 +23,12 @@ body {
 
 #square {
 	width: 5px;
-	height: 12px;
+	height: 17px;
 	background: brown;
-	top: 203px;
-	left: 270px;
+	top: 212px;
+	left: 472px;
 	position: absolute;
+	transform: rotate(-9deg);
 
 	/* uncomment to add keyframe animation */
 	/* animation: spin 2s infinite; */
