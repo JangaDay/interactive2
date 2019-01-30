@@ -22,9 +22,9 @@ body {
 }
 
 #square {
-	width: px;
-	height: px;
-	background: red;
+	width: 5px;
+	height: 12px;
+	background: brown;
 	top: 203px;
 	left: 270px;
 	position: absolute;
@@ -37,12 +37,23 @@ body {
 #circle {
 	width: 150px;
 	height: 150px;
-	background: blue;
+	background: rgb(204, 255, 102);
 	border-radius: 150px;
-	top: 203px;
-	left: 480px;
+	top: 242px;
+	left: 472px;
 	position: absolute;
 }
+   #egg {
+      display: block;
+      width: 126px;
+      height: 180px;
+      background-color:rgb(204, 255, 102);
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+      top: 203px;
+	  left: 468px;
+	  position: absolute;
+	  transform:rotate(-35deg);
+    }
 
 #clip {
 	width: ;
