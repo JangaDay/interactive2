@@ -41,10 +41,27 @@ body {
 	position: absolute;
 	transform: rotate(-9deg);
 
+}
 
+  #trap {
+      border-bottom: 10px black solid;
+      border-left: 32px solid transparent;
+      border-right: 20px solid transparent;
+      height: 0;
+      width: 98px;
+      top: 253px;
+      left: 303px;
+	  position: absolute;
+    }
 
-	/* uncomment to add keyframe animation */
-	/* animation: spin 2s infinite; */
+    #camerafront {
+	width: 151px;
+	height: 86px;
+	background: rgb(65, 65, 65);
+	top: 263px;
+	left: 304px;
+	position: absolute;
+	;
 
 }
 
@@ -94,6 +111,16 @@ body {
 	border-radius: 150px;
 	top: 242px;
 	left: 472px;
+	position: absolute;
+}
+
+#circle3 {
+	width: 62px;
+	height: 62px;
+	background: rgb(228, 228, 228);
+	border-radius: 150px;
+	top: 277px;
+	left: 351px;
 	position: absolute;
 }
    #egg {
