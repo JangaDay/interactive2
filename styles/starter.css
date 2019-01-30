@@ -3,8 +3,8 @@ body {
 }
 
 .stage {
-	width: 900px;
-	height: 556px;
+	width: px;
+	height: px;
 	margin: 100px auto;
 	background: white;
 	position: relative;
@@ -17,13 +17,13 @@ body {
 	border-right: 75px solid transparent;
 	border-bottom: 150px solid yellow;
 	position: absolute;
-	top: 203px;
-	left: 60px;
+	top: px;
+	left: px;
 }
 
 #square {
-	width: 150px;
-	height: 150px;
+	width: px;
+	height: px;
 	background: red;
 	top: 203px;
 	left: 270px;
