@@ -5,16 +5,25 @@
 
 body {
 	font-family: 'Roboto Mono', monospace;
-	font-size: 30px;
+	
+	font-size: 15px;
 	font-weight: normal;
+	color:lightgrey;
+	background-color: white;
+
 	
 }
 
-/* this is a comment */
+
+
+
 
 #container {
-	width:500px;
+	width:1350px;
 	margin: 0 auto;
+	position: absolute;
+	top: 40px;
+	left:74px;
 }
 
 #exercises, #projects {
@@ -25,6 +34,10 @@ h1 {
 	font-size:40pt;
 }
 
+h1:hover {
+	color:black;
+}
+
 h1, 
 
 h2, h3 {
@@ -32,10 +45,22 @@ h2, h3 {
     font-size:20pt;
 } 
 
+h2:hover {
+	color:black;
+}
+
+h3:hover {
+	color:black;
+}
+
 p {
 	margin: 20px 0;
 	font-size:14pt;
 	line-height: 150%;
+}
+
+p:hover {
+	color:black;
 }
 
 ul {
