@@ -13,13 +13,7 @@ body {
 
     }
 
-.stage {
-	width: 900px;
-	height: 600px;
-	margin: 100px auto;
-	background: white;
-	position: relative;
-}
+
 
 #triangle {
 	width: ;
@@ -42,6 +36,42 @@ body {
 	transform: rotate(-9deg);
 
 }
+
+#cube1 {
+	width: 5px;
+	height: 40px;
+	background: rgb(158, 103, 62);
+	top: 339px;
+	left: 429px;
+	position: absolute;
+	}
+
+#cube2 {
+	width: 5px;
+	height: 41px;
+	background: rgb(158, 103, 62);
+	top: 339px;
+	left: 366px;
+	position: absolute;
+	}
+
+	#cube3 {
+	width: 5px;
+	height: 31px;
+	background: rgb(130, 84, 50);
+	top: 339px;
+	left: 389px;
+	position: absolute;
+	}
+
+	#cube4 {
+	width: 5px;
+	height: 40px;
+	background: rgb(130, 84, 50);
+	top: 329px;
+	left: 325px;
+	position: absolute;
+	}
 
   #trap {
       border-bottom: 10px black solid;
@@ -123,6 +153,16 @@ body {
 	left: 351px;
 	position: absolute;
 }
+
+#circle4 {
+	width: 74px;
+	height: 74px;
+	background: silver;
+	border-radius: 150px;
+	top: 271px;
+	left: 345px;
+	position: absolute;
+}
    #egg {
       display: block;
       width: 126px;
@@ -133,6 +173,25 @@ body {
 	  left: 468px;
 	  position: absolute;
 	  transform:rotate(-35deg);
+    }
+
+        #para {
+      width: 70px;
+      height: 11px;
+      transform: skew(-104deg);
+      background: rgb(158, 103, 62);
+      top: 328px;
+	left: 345px;
+	position: absolute;
+    }
+    #para2 {
+      width: 70px;
+      height: 11px;
+      transform: skew(-104deg);
+      background: rgb(130, 84, 50);
+      top: 369px;
+	left: 344px;
+	position: absolute;
     }
       
 #clip {
