@@ -1,0 +1,93 @@
+body {
+	background: #cccccc;
+}
+
+.letter{
+	position:relative;
+	float:left;
+	width:154px;
+	height:10px;
+}
+
+.a .diamond {
+position: absolute;
+left:39px;
+}
+
+.a .talldescender {
+	
+	position: absolute;
+left:60px;
+top:30px;
+}
+
+.a .descender {
+	
+	position: absolute;
+left:20px;
+top:45px;
+}
+
+.a .triangle {
+	position: absolute;
+left:20px;
+top:45px;
+}
+
+
+   .descender {
+      width: 19px;
+      height: 76px;
+      background: black;
+
+    }
+.talldescender {
+      width: 19px;
+      height: 114px;
+      background: black;
+
+    }
+
+    .triangle{
+      width: 0;
+      height: 0;
+      border-bottom: 19px solid black;
+      border-left: 19px solid transparent;
+    }
+
+    .diamond{
+      width: 14px;
+      height: 14px;
+      transform: rotate(45deg);
+      background: black;
+  
+    }
+
+    .toppoint{
+      width: 14px;
+      height: 22px;
+      transform: rotate(45deg);
+      background: black;
+  
+    }
+
+    .bottompoint{
+      width: 14px;
+      height: 22px;
+      transform: rotate(135deg);
+      background: black;
+  
+    }
+
+.line{
+      width: 1px;
+      height: 22px;
+      transform: rotate(45deg);
+      background: black;
+  
+    }
+
+
+
+
+*/
