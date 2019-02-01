@@ -125,6 +125,12 @@ top:117px;
 left:59px;
 top:30px;
 }
+.e .descendermedium {
+	
+	position: absolute;
+left:20px;
+top:68px;
+}
    .descender {
       width: 19px;
       height: 76px;
@@ -136,6 +142,12 @@ top:30px;
       background: black;
 
     }
+
+    .descendermedium {
+      width: 19px;
+      height: 95px;
+      background: black;}
+
 .talldescender {
       width: 19px;
       height: 114px;
