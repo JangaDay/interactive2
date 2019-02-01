@@ -47,6 +47,12 @@ left:82px;
 top:141px;
 }
 
+.a .littleline2 {
+	position: absolute;
+left:43px;
+top:141px;
+}
+
 .a .toppoint {
 	position: absolute;
 left:58px;
@@ -72,10 +78,61 @@ left:20px;
 top:68px;
 }
 
+.o .diamond {
+position: absolute;
+left:42px;
+top:103px;
+}
 
+.o .triangle {
+	position: absolute;
+left:20px;
+top:49px;
+}
+
+.o .line {
+	position: absolute;
+left:44px;
+top:11px;
+}
+
+.o .toppoint {
+	position: absolute;
+left:58px;
+top:22px;
+}
+
+.o .bottompoint {
+	position: absolute;
+left:26px;
+top:136px;
+}
+
+.o .mediumline {
+	position: absolute;
+left:56px;
+top:108px;
+}
+
+.o .bottomtriangle {
+	position: absolute;
+left:59px;
+top:117px;
+}
+
+.o .descender2 {
+	position: absolute;
+left:59px;
+top:30px;
+}
    .descender {
       width: 19px;
       height: 76px;
+      background: black;}
+
+    .descender2 {
+      width: 19px;
+      height: 87px;
       background: black;
 
     }
@@ -92,6 +149,15 @@ top:68px;
       border-bottom: 19px solid black;
       border-left: 19px solid transparent;
     }
+
+     .bottomtriangle{
+      width: 0;
+      height: 0;
+      border-bottom: 19px solid black;
+      border-left: 19px solid transparent;
+      transform: rotate(180deg);
+    }
+
 
     .diamond{
       width: 14px;
@@ -133,6 +199,22 @@ top:68px;
     }
 
     .littleline{
+      width: 1px;
+      height: 22px;
+      transform: rotate(45deg);
+      background: black;
+  
+    }
+
+    .mediumline{
+      width: 1px;
+      height: 60px;
+      transform: rotate(45deg);
+      background: black;
+  
+    }
+
+     .littleline2{
       width: 1px;
       height: 22px;
       transform: rotate(45deg);
