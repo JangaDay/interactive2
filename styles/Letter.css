@@ -129,8 +129,53 @@ top:30px;
 	
 	position: absolute;
 left:20px;
-top:68px;
+top:49px;
 }
+
+.e .diamond {
+position: absolute;
+left:42px;
+top:103px;
+}
+
+.e .line {
+  position: absolute;
+left:44px;
+top:10px;
+}
+
+.e .bottomline {
+  position: absolute;
+left:50px;
+top:124px;
+}
+
+.e .littleline {
+  position: absolute;
+left:82px;
+top:141px;
+}
+
+.e .bottompoint {
+  position: absolute;
+left:26px;
+top:136px;
+}
+
+.e .bottompoint2 {
+  position: absolute;
+left:19px;
+top:35px;
+}
+.e .diamond2 {
+position: absolute;
+left:60px;
+top:130px;
+}
+
+
+
+
    .descender {
       width: 19px;
       height: 76px;
@@ -172,6 +217,13 @@ top:68px;
 
 
     .diamond{
+      width: 14px;
+      height: 14px;
+      transform: rotate(45deg);
+      background: black;
+  
+    }
+    .diamond2{
       width: 14px;
       height: 14px;
       transform: rotate(45deg);
@@ -226,12 +278,28 @@ top:68px;
   
     }
 
+    .bottomline{
+      width: 1px;
+      height: 41px;
+      transform: rotate(45deg);
+      background: black;
+  
+    }
+
      .littleline2{
       width: 1px;
       height: 22px;
       transform: rotate(45deg);
       background: black;
   
+    }
+
+     .toptriangle {
+      width: 0;
+      height: 0;
+      border-top: 50px solid transparent;
+      border-left: 100px solid red;
+      border-bottom: 50px solid transparent;
     }
 
 
