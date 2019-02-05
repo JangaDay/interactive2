@@ -152,8 +152,8 @@ top:124px;
 
 .e .littleline {
   position: absolute;
-left:82px;
-top:141px;
+left:15px;
+top:31px;
 }
 
 .e .bottompoint {
@@ -172,6 +172,19 @@ position: absolute;
 left:60px;
 top:130px;
 }
+
+.e .diamond3 {
+position: absolute;
+left:52px;
+top:31px;
+}
+
+.e .toptriangle {
+position: absolute;
+left:62px;
+top:21px;
+}
+
 
 
 
@@ -224,6 +237,13 @@ top:130px;
   
     }
     .diamond2{
+      width: 14px;
+      height: 14px;
+      transform: rotate(45deg);
+      background: black;
+  
+    }
+     .diamond3{
       width: 14px;
       height: 14px;
       transform: rotate(45deg);
@@ -297,11 +317,10 @@ top:130px;
      .toptriangle {
       width: 0;
       height: 0;
-      border-top: 50px solid transparent;
-      border-left: 100px solid red;
-      border-bottom: 50px solid transparent;
+      border-top: 14px solid black;
+      border-right: 15px solid transparent;
+      transform: rotate(-45deg);
     }
-
 
 
 
