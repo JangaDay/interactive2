@@ -185,6 +185,58 @@ left:62px;
 top:21px;
 }
 
+.n .descendermedium2 {
+  
+  position: absolute;
+left:20px;
+top:59px;
+}
+
+.n .bottompoint2 {
+  position: absolute;
+left:19px;
+top:45px;
+}
+.n .bottompoint {
+  position: absolute;
+left:26px;
+top:136px;
+}
+
+.n .bottompoint4 {
+  position: absolute;
+left:57px;
+top:136px;
+}
+.n .talldescender2 {
+  
+  position: absolute;
+left:51px;
+top:40px;
+}
+.n .littleline {
+  position: absolute;
+left:15px;
+top:41px;
+}
+
+.n .littleline2 {
+  position: absolute;
+left:74px;
+top:141px;
+}
+
+.n .bottomline {
+  position: absolute;
+left:39px;
+top:19px;
+}
+
+.n .bottompoint3 {
+  position: absolute;
+left:50px;
+top:26px;
+}
 
 
 
@@ -206,9 +258,22 @@ top:21px;
       height: 95px;
       background: black;}
 
+      .descendermedium2 {
+      width: 19px;
+      height: 85px;
+      background: black;}
+
+
 .talldescender {
       width: 19px;
       height: 114px;
+      background: black;
+
+    }
+
+    .talldescender2 {
+      width: 19px;
+      height: 104px;
       background: black;
 
     }
@@ -266,7 +331,25 @@ top:21px;
       background: black;
   
     }
+
+
     .bottompoint2{
+      width: 14px;
+      height: 22px;
+      transform: rotate(135deg);
+      background: black;
+  
+    }
+
+    .bottompoint3{
+      width: 14px;
+      height: 22px;
+      transform: rotate(135deg);
+      background: black;
+  
+    }
+
+    .bottompoint4{
       width: 14px;
       height: 22px;
       transform: rotate(135deg);
@@ -283,6 +366,14 @@ top:21px;
     }
 
     .littleline{
+      width: 1px;
+      height: 22px;
+      transform: rotate(45deg);
+      background: black;
+  
+    }
+
+     .littleline2{
       width: 1px;
       height: 22px;
       transform: rotate(45deg);
