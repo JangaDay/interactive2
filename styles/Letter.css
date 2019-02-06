@@ -454,6 +454,84 @@ top:21px;
 
 
 
+.g .descendermedium {
+  
+  position: absolute;
+left:20px;
+top:49px;
+}
+
+.g .diamond {
+position: absolute;
+left:42px;
+top:103px;
+}
+
+.g .line {
+  position: absolute;
+left:44px;
+top:10px;
+}
+
+.g .bottomline {
+  position: absolute;
+left:50px;
+top:124px;
+}
+
+.g .littleline {
+  position: absolute;
+left:15px;
+top:31px;
+}
+
+.g .bottompoint {
+  position: absolute;
+left:26px;
+top:136px;
+}
+
+.g .bottompoint2 {
+  position: absolute;
+left:19px;
+top:35px;
+}
+.g .diamond2 {
+position: absolute;
+left:60px;
+top:130px;
+}
+
+.g .diamond3 {
+position: absolute;
+left:52px;
+top:31px;
+}
+
+.g .toptriangle {
+position: absolute;
+left:62px;
+top:21px;
+}
+
+.g .bottomline {
+  position: absolute;
+left:50px;
+top:124px;
+}
+.g .sharpdescender {
+  
+  position: absolute;
+left:54px;
+top:96px;
+}
+
+
+
+
+
+
+
 .n .descendermedium2 {
   
   position: absolute;
