@@ -76,6 +76,101 @@ left:26px;
 top:136px;
 }
 
+
+
+
+.b .descender {
+  
+  position: absolute;
+left:20px;
+top:68px;
+}
+
+.b .triangle {
+  position: absolute;
+left:20px;
+top:49px;
+}
+
+.b .line {
+  position: absolute;
+left:44px;
+top:11px;
+}
+
+.b .thicktoppoint {
+  position: absolute;
+left:57px;
+top:22px;
+}
+.b .thicktoppoint2 {
+  position: absolute;
+left:57px;
+top:88px;
+}
+
+.b .bottompoint2 {
+  position: absolute;
+left:26px;
+top:136px;
+}
+.b .sharpdescender {
+  
+  position: absolute;
+left:59px;
+top:39px;
+}
+
+.b .sharpdescendershort {
+  
+  position: absolute;
+left:59px;
+top:106px;
+}
+.b .middleline {
+  position: absolute;
+left:55px;
+top:68px;
+}
+.b .middleline2 {
+  position: absolute;
+left:55px;
+top:111px;
+}
+
+
+
+
+
+
+
+.c .descender {
+  
+  position: absolute;
+left:20px;
+top:68px;
+}
+
+.c .triangle {
+  position: absolute;
+left:20px;
+top:49px;
+}
+
+.c .line {
+  position: absolute;
+left:44px;
+top:11px;
+}
+
+
+
+
+
+
+
+
+
 .o .descender {
 	
 	position: absolute;
@@ -130,6 +225,13 @@ top:117px;
 left:59px;
 top:30px;
 }
+
+
+
+
+
+
+
 .e .descendermedium {
 	
 	position: absolute;
@@ -190,6 +292,14 @@ left:62px;
 top:21px;
 }
 
+
+
+
+
+
+
+
+
 .n .descendermedium2 {
   
   position: absolute;
@@ -246,6 +356,19 @@ top:26px;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
    .descender {
       width: 19px;
       height: 76px;
@@ -273,6 +396,22 @@ top:26px;
       width: 19px;
       height: 114px;
       background: black;
+
+    }
+
+    .sharpdescender {
+      width: 19px;
+      height: 48px;
+      background: black;
+      transform: skewY(-45deg);
+
+    }
+
+    .sharpdescendershort {
+      width: 19px;
+      height: 21px;
+      background: black;
+      transform: skewY(-45deg);
 
     }
 
@@ -324,6 +463,19 @@ top:26px;
     .toppoint{
       width: 14px;
       height: 22px;
+      transform: rotate(45deg);
+      background: black;
+  
+    }
+    .thicktoppoint{
+      width: 14px;
+      height: 26px;
+      transform: rotate(45deg);
+      background: black;
+     }
+     .thicktoppoint2{
+      width: 14px;
+      height: 26px;
       transform: rotate(45deg);
       background: black;
   
@@ -397,6 +549,21 @@ top:26px;
     .bottomline{
       width: 1px;
       height: 41px;
+      transform: rotate(45deg);
+      background: black;
+  
+    }
+    .middleline{
+      width: 1px;
+      height: 63px;
+      transform: rotate(45deg);
+      background: black;
+  
+    }
+
+    .middleline2{
+      width: 1px;
+      height: 57px;
       transform: rotate(45deg);
       background: black;
   
