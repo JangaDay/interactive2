@@ -10,8 +10,8 @@ body {
 .letter{
 	position:relative;
 	float:left;
-	width:154px;
-	height:154px;
+	width:125px;
+	height:180px;
 }
 
 .a .diamond {
@@ -162,8 +162,90 @@ top:49px;
 left:44px;
 top:11px;
 }
+.c .bottompoint2 {
+  position: absolute;
+left:26px;
+top:136px;
+}
+.c .diamond3 {
+position: absolute;
+left:52px;
+top:32px;
+}
+.c .toptriangle {
+position: absolute;
+left:62px;
+top:22px;
+}
+.c .middleline2 {
+  position: absolute;
+left:55px;
+top:111px;
+}
+.c .diamond {
+position: absolute;
+left:59px;
+top:112px;
+}
 
 
+
+
+
+.d .descender3 {
+  
+  position: absolute;
+left:20px;
+top:50px;
+}
+
+.d .diamond {
+position: absolute;
+left:42px;
+top:103px;
+}
+
+.d .triangle {
+  position: absolute;
+left:20px;
+top:49px;
+}
+
+.d .line {
+  position: absolute;
+left:44px;
+top:11px;
+}
+
+.d .toppoint {
+  position: absolute;
+left:58px;
+top:22px;
+}
+
+.d .bottompoint {
+  position: absolute;
+left:26px;
+top:136px;
+}
+
+.d .mediumline {
+  position: absolute;
+left:56px;
+top:108px;
+}
+
+.d .bottomtriangle {
+  position: absolute;
+left:59px;
+top:117px;
+}
+
+.d .descender2 {
+  position: absolute;
+left:59px;
+top:30px;
+}
 
 
 
@@ -300,6 +382,78 @@ top:21px;
 
 
 
+
+
+
+
+
+.f .descendermedium {
+  
+  position: absolute;
+left:20px;
+top:49px;
+}
+
+.f .diamond {
+position: absolute;
+left:42px;
+top:103px;
+}
+
+.f .line {
+  position: absolute;
+left:44px;
+top:10px;
+}
+
+.f .bottomline {
+  position: absolute;
+left:50px;
+top:124px;
+}
+
+.f .littleline {
+  position: absolute;
+left:15px;
+top:31px;
+}
+
+.f .bottompoint {
+  position: absolute;
+left:26px;
+top:136px;
+}
+
+.f .bottompoint2 {
+  position: absolute;
+left:19px;
+top:35px;
+}
+.f .diamond2 {
+position: absolute;
+left:60px;
+top:130px;
+}
+
+.f .diamond3 {
+position: absolute;
+left:52px;
+top:31px;
+}
+
+.f .toptriangle {
+position: absolute;
+left:62px;
+top:21px;
+}
+
+
+
+
+
+
+
+
 .n .descendermedium2 {
   
   position: absolute;
@@ -380,6 +534,10 @@ top:26px;
       background: black;
 
     }
+    .descender3 {
+      width: 19px;
+      height: 94px;
+      background: black;}
 
     .descendermedium {
       width: 19px;
