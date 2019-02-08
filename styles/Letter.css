@@ -919,6 +919,90 @@ top:31px;
 
 
 
+
+
+
+
+
+.k .descender3 {
+  
+  position: absolute;
+left:20px;
+top:50px;
+}
+
+.k .triangle {
+  position: absolute;
+left:20px;
+top:49px;
+}
+
+.k .line {
+  position: absolute;
+left:44px;
+top:11px;
+}
+
+.k .thicktoppoint {
+  position: absolute;
+left:57px;
+top:22px;
+}
+.k .thicktoppoint2 {
+  position: absolute;
+left:57px;
+top:88px;
+}
+
+.k .bottompoint2 {
+  position: absolute;
+left:26px;
+top:136px;
+}
+.k .sharpdescender {
+  
+  position: absolute;
+left:59px;
+top:39px;
+}
+
+.k .sharpdescendershort {
+  
+  position: absolute;
+left:59px;
+top:106px;
+}
+.k .middleline {
+  position: absolute;
+left:55px;
+top:68px;
+}
+.k .middleline2 {
+  position: absolute;
+left:55px;
+top:111px;
+}
+
+.k .sharpdescender2 {
+  
+  position: absolute;
+left:59px;
+top:106px;
+}
+.k .bottompoint3 {
+  position: absolute;
+left:19px;
+top:36px;
+}
+.k .littleline {
+  position: absolute;
+left:15px;
+top:31px;
+}
+
+
+
+
 .u{
 transform: rotate(180deg);
 position: relative;
