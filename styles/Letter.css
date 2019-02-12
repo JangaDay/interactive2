@@ -6,8 +6,8 @@ body {
   display: grid;
   align-items: center;
   justify-content:center;
-  height:100vh;
-  width: 100vw;
+  height:150vh;
+  width: 150vw;
   background-color: rgb(235, 180, 50);
 
 }
