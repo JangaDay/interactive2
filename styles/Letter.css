@@ -6,8 +6,8 @@ body {
   display: grid;
   align-items: center;
   justify-content:center;
-  height:150vh;
-  width: 150vw;
+  height:100vh;
+  width: 100vw;
   background-color: rgb(235, 180, 50);
 
 }
@@ -16,6 +16,9 @@ body {
   align-items: center;
   justify-content:center;
   height:100vh;
+  width: 100vw;
+  background-color: rgb(246, 114, 128);
+
 }
 .letter{
 	position:relative;
@@ -1520,11 +1523,18 @@ top:136px;
      .toptriangle {
       width: 0;
       height: 0;
-      border-top: 14px solid black;
+      border-top: 14px solid;
       border-right: 15px solid transparent;
       transform: rotate(-45deg);
     }
 
+    .pink {
+      background-color: rgb(214, 59, 101);
+    }
+
+.blue {
+      background-color: rgb(149, 203, 219);
+    }
 
 
 */
