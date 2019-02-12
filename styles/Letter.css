@@ -574,6 +574,92 @@ top:21px;
 
 
 
+.k .descender3 {
+  
+  position: absolute;
+left:20px;
+top:50px;
+}
+
+.k .triangle {
+  position: absolute;
+left:20px;
+top:49px;
+}
+
+.k .line {
+  position: absolute;
+left:44px;
+top:11px;
+}
+
+.k .thicktoppoint {
+  position: absolute;
+left:57px;
+top:22px;
+}
+.k .thicktoppoint2 {
+  position: absolute;
+left:57px;
+top:88px;
+}
+
+.k .bottompoint2 {
+  position: absolute;
+left:26px;
+top:136px;
+}
+.k .sharpdescender {
+  
+  position: absolute;
+left:59px;
+top:39px;
+}
+
+.k .sharpdescendershort {
+  
+  position: absolute;
+left:59px;
+top:106px;
+}
+.k .middleline {
+  position: absolute;
+left:55px;
+top:68px;
+}
+.k .middleline2 {
+  position: absolute;
+left:55px;
+top:111px;
+}
+
+.k .sharpdescender2 {
+  
+  position: absolute;
+left:59px;
+top:106px;
+}
+.k .bottompoint3 {
+  position: absolute;
+left:19px;
+top:36px;
+}
+.k .littleline {
+  position: absolute;
+left:15px;
+top:31px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -640,7 +726,10 @@ top:130px;
 
 
 
-
+.m{
+position: relative;
+right: 15px;
+}
 .m .descendermedium2 {
   
   position: absolute;
@@ -1087,81 +1176,65 @@ top:31px;
 
 
 
-.k .descender3 {
-  
+
+.t{
+position: relative;
+right: -15px;
+}
+.t .descender {
   position: absolute;
 left:20px;
-top:50px;
+top:68px;
 }
-
-.k .triangle {
+.t .littleline2 {
   position: absolute;
-left:20px;
-top:49px;
+left:43px;
+top:141px;
 }
-
-.k .line {
-  position: absolute;
-left:44px;
-top:11px;
-}
-
-.k .thicktoppoint {
-  position: absolute;
-left:57px;
-top:22px;
-}
-.k .thicktoppoint2 {
-  position: absolute;
-left:57px;
-top:88px;
-}
-
-.k .bottompoint2 {
+.t .bottompoint2 {
   position: absolute;
 left:26px;
 top:136px;
 }
-.k .sharpdescender {
+.t .sharpdescendershort {
   
   position: absolute;
-left:59px;
-top:39px;
+left:20px;
+top:57px;
 }
-
-.k .sharpdescendershort {
-  
+.t .linetee {
   position: absolute;
-left:59px;
-top:106px;
+left:33px;
+top:3px;
 }
-.k .middleline {
-  position: absolute;
-left:55px;
-top:68px;
-}
-.k .middleline2 {
-  position: absolute;
-left:55px;
-top:111px;
-}
-
-.k .sharpdescender2 {
-  
-  position: absolute;
-left:59px;
-top:106px;
-}
-.k .bottompoint3 {
-  position: absolute;
-left:19px;
-top:36px;
-}
-.k .littleline {
-  position: absolute;
-left:15px;
+.t .diamond3 {
+position: absolute;
+left:52px;
 top:31px;
 }
+.t .toptriangle {
+position: absolute;
+left:62px;
+top:21px;
+}
+.t .diamond {
+position: absolute;
+left:-9px;
+top:73px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1587,6 +1660,14 @@ top:136px;
    .line{
       width: 1px;
       height: 67px;
+      transform: rotate(45deg);
+      background: black;
+  
+    }
+
+    .linetee{
+      width: 1px;
+      height: 101px;
       transform: rotate(45deg);
       background: black;
   
