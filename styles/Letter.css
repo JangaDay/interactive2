@@ -18,7 +18,7 @@ body {
   justify-content:center;
   height:1682px;
   width: 100vw;
-  background-color: rgb(246, 114, 128);
+  background-color: #f29580;
 
 }
 .lastpage{
@@ -1545,6 +1545,10 @@ top:136px;
 
 .blue {
       background-color: rgb(149, 203, 219);
+    }
+
+    .peach {
+      background-color: #fab496;
     }
 
 
