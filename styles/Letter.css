@@ -11,15 +11,26 @@ body {
   background-color: rgb(235, 180, 50);
 
 }
+
 .centerthings{
+  display: grid;
+  align-items: center;
+  justify-content:center;
+  height:1682px;
+  width: 100vw;
+  background-color: rgb(246, 114, 128);
+
+}
+.lastpage{
   display: grid;
   align-items: center;
   justify-content:center;
   height:100vh;
   width: 100vw;
-  background-color: rgb(246, 114, 128);
+  background-color: #0894a1;
 
 }
+
 .letter{
 	position:relative;
 	float:left;
