@@ -1,5 +1,6 @@
 body {
 	background: white;
+  margin: 0px;
 }
 
 .firstpage{
@@ -1463,45 +1464,86 @@ top:136px;
 
 
 
+
+
+
+
+   @keyframes move {
+  from {transform:scale(0);}
+  to {transform: scale(1);}
+}
+
+@keyframes line {
+  from {width: 0px;
+      height: 0px;}
+  to {width: 1px;
+      height: 67px;}
+}
+   
+
+
+
+
+
+
    .descender {
       width: 19px;
       height: 76px;
-      background: black;}
-
+      background: black;  
+      animation-name: move;
+      animation-duration: 4s;
+    }
 
     .descender2 {
       width: 19px;
       height: 87px;
       background: black;
+      background: black;  
+      animation-name: move;
+      animation-duration: 4s;
 
     }
     .descender3 {
       width: 19px;
       height: 94px;
-      background: black;}
+      background: black;
+    background: black;  
+    animation-name: move;
+      animation-duration: 4s;}
 
     .descendermedium {
       width: 19px;
       height: 95px;
-      background: black;}
+      background: black;
+    background: black;  
+    animation-name: move;
+      animation-duration: 4s;}
 
       .descendermedium2 {
       width: 19px;
       height: 85px;
-      background: black;}
+      background: black;
+    background: black;  
+    animation-name: move;
+      animation-duration: 4s;}
 
 
 .talldescender {
       width: 19px;
       height: 114px;
       background: black;
-
+      background: black;  
+      animation-name: move;
+      animation-duration: 4s;
     }
 
     .talldescender3 {
         width: 19px;
       height: 104px;
       background: black;
+      background: black;  
+      animation-name: move;
+      animation-duration: 4s;
 
     }
 
@@ -1510,6 +1552,9 @@ top:136px;
       height: 48px;
       background: black;
       transform: skewY(-45deg);
+      background: black;  
+      animation-name: move;
+      animation-duration: 4s;
 
     }
 
@@ -1518,6 +1563,9 @@ top:136px;
       height: 40px;
       background: black;
       transform: skewY(-45deg);
+      background: black;  
+      animation-name: move;
+      animation-duration: 4s;
 
     }
 
@@ -1526,6 +1574,8 @@ top:136px;
       height: 21px;
       background: black;
       transform: skewY(-45deg);
+      animation-name: move;
+      animation-duration: 4s;
 
     }
 
@@ -1533,6 +1583,8 @@ top:136px;
       width: 19px;
       height: 104px;
       background: black;
+      animation-name: move;
+      animation-duration: 4s;
 
     }
 
@@ -1564,6 +1616,7 @@ top:136px;
       height: 14px;
       transform: rotate(45deg);
       background: black;
+
   
     }
     .diamond2{
@@ -1662,7 +1715,6 @@ top:136px;
       height: 67px;
       transform: rotate(45deg);
       background: black;
-  
     }
 
     .linetee{
@@ -1759,6 +1811,71 @@ top:136px;
       border-right: 15px solid transparent;
       transform: rotate(-45deg);
     }
+
+    
+
+
+
+
+    .toptriangle.pink{
+      border-top-color: rgb(214, 59, 101);
+      background:transparent;
+    }
+
+    .triangle.pink{
+      border-bottom-color: rgb(214, 59, 101);
+      background:transparent;
+    }
+    .bottomtriangle.pink{
+      border-bottom-color: rgb(214, 59, 101);
+      background:transparent;
+    }
+
+
+    
+
+
+
+    .triangle.blue{
+      border-bottom-color: rgb(149, 203, 219);
+      background:transparent;
+    }
+     .triangle2.blue{
+      border-bottom-color: rgb(149, 203, 219);
+      background:transparent;
+    }
+    .toptriangle.blue{
+      border-top-color: rgb(149, 203, 219);
+      background:transparent;
+    }
+    .bottomtriangle.blue{
+      border-bottom-color: rgb(149, 203, 219);
+      background:transparent;
+    }
+
+
+
+
+
+    .toptriangle.peach{
+      border-top-color: #fab496;
+      background:transparent;
+    }
+
+    .triangle.peach{
+      border-bottom-color: #fab496;
+      background:transparent;
+    }
+    .bottomtriangle.peach{
+      border-bottom-color: #fab496;
+      background:transparent;
+    }
+
+    
+
+
+
+
 
     .pink {
       background-color: rgb(214, 59, 101);
