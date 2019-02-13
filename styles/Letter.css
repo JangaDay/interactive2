@@ -1327,6 +1327,74 @@ top:31px;
 
 
 
+
+.s .thicktoppointmiddle {
+  position: absolute;
+left:13px;
+top:70px;
+}
+.s .sharpdescendershort {
+  
+  position: absolute;
+left:59px;
+top:106px;
+}
+.s .sharpdescendershort2 {
+  
+  position: absolute;
+left:13px;
+top:39px;
+}
+.s .line {
+  position: absolute;
+left:44px;
+top:11px;
+}
+.s .diamond3 {
+position: absolute;
+left:52px;
+top:32px;
+}
+.s .toptriangle {
+position: absolute;
+left:62px;
+top:22px;
+}
+.s .littleline2 {
+  position: absolute;
+left:27px;
+top:136px;
+}
+.s .diamond {
+position: absolute;
+left:28px;
+top:142px;
+}
+.s .mediumline {
+  position: absolute;
+left:56px;
+top:108px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .t{
 position: relative;
 right: 7px;
@@ -1818,6 +1886,13 @@ top:136px;
     }
     .thicktoppoint{
       width: 14px;
+      height: 26px;
+      transform: rotate(45deg);
+      background: black;
+     }
+
+     .thicktoppointmiddle{
+      width: 65px;
       height: 26px;
       transform: rotate(45deg);
       background: black;
