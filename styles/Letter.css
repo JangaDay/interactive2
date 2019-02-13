@@ -1330,8 +1330,8 @@ top:31px;
 
 .s .thicktoppointmiddle {
   position: absolute;
-left:13px;
-top:70px;
+left:16px;
+top:72px;
 }
 .s .sharpdescendershort {
   
@@ -1599,7 +1599,7 @@ top:40px;
 .w{
 transform: rotate(180deg);
 position: relative;
-right: -8px;
+right: 16px;
 top:2px;
 }
 .w .descendermedium2 {
@@ -1676,6 +1676,64 @@ top:26px;
 left:90px;
 top:136px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.x .thicktoppointmiddlex {
+  position: absolute;
+left:16px;
+top:83px;
+}
+.x .sharpdescender {
+  
+  position: absolute;
+left:53px;
+top:31px;
+}
+.x .sharpdescender2 {
+  
+  position: absolute;
+left:51px;
+top:114px;
+}
+.x .sharpdescenderx {
+  
+  position: absolute;
+left:14px;
+top:31px;
+}
+.x .sharpdescender2x {
+  
+  position: absolute;
+left:13px;
+top:114px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1796,6 +1854,28 @@ top:136px;
 
     }
 
+    .sharpdescenderx {
+      width: 19px;
+      height: 47px;
+      background: black;
+      transform: skewY(-45deg);
+      background: black;  
+      -name: move;
+      -duration: 4s;
+
+    }
+
+     .sharpdescender2x {
+      width: 19px;
+      height: 40px;
+      background: black;
+      transform: skewY(-45deg);
+      background: black;  
+      -name: move;
+      -duration: 4s;
+
+    }
+
     .sharpdescendershort {
       width: 19px;
       height: 21px;
@@ -1892,7 +1972,14 @@ top:136px;
      }
 
      .thicktoppointmiddle{
-      width: 65px;
+      width: 61px;
+      height: 26px;
+      transform: rotate(45deg);
+      background: black;
+     }
+
+     .thicktoppointmiddlex{
+      width: 52px;
       height: 26px;
       transform: rotate(45deg);
       background: black;
