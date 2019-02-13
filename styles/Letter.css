@@ -532,7 +532,7 @@ top:96px;
 
 .h{
 position: relative;
-right: 33px;
+right: 0px;
 }
 .h .talldescender2 {
   
@@ -559,6 +559,37 @@ top:26px;
   position: absolute;
 left:54px;
 top:21px;
+}
+.h .talldescender2h {
+  
+  position: absolute;
+left:20px;
+top:40px;
+}
+.h .bottompointh {
+  position: absolute;
+left:26px;
+top:136px;
+}
+.h .littlelineh {
+  position: absolute;
+left:43px;
+top:141px;
+}
+.h .bottompoint2h {
+  position: absolute;
+left:19px;
+top:26px;
+}
+.h .littleline2h {
+  position: absolute;
+left:15px;
+top:21px;
+}
+.h .diamond {
+position: absolute;
+left:42px;
+top:103px;
 }
 
 
@@ -609,6 +640,81 @@ top:26px;
 left:54px;
 top:21px;
 }
+
+
+
+
+
+
+
+
+
+
+.j{
+position: relative;
+right: 7px;
+}
+.j .descenderj {
+  position: absolute;
+left:51px;
+top:48px;
+}
+.j .littleline2 {
+  position: absolute;
+left:19px;
+top:136px;
+}
+.j .bottompoint2 {
+  position: absolute;
+left:26px;
+top:136px;
+}
+.j .sharpdescendershort {
+  
+  position: absolute;
+left:51px;
+top:39px;
+}
+.j .sharpdescendershort2 {
+  
+  position: absolute;
+left:51px;
+top:106px;
+}
+.j .line {
+  position: absolute;
+left:44px;
+top:22px;
+}
+.j .diamond3 {
+position: absolute;
+left:23px;
+top:72px;
+}
+.j .toptriangle {
+position: absolute;
+left:33px;
+top:62px;
+}
+.j .diamond {
+position: absolute;
+left:20px;
+top:142px;
+}
+.j .mediumline {
+  position: absolute;
+left:48px;
+top:108px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1533,8 +1639,16 @@ top:136px;
       width: 19px;
       height: 76px;
       background: black;  
-      animation-name: move;
-      animation-duration: 4s;
+      -name: move;
+      -duration: 4s;
+    }
+
+    .descenderj {
+      width: 19px;
+      height: 68px;
+      background: black;  
+      -name: move;
+      -duration: 4s;
     }
 
     .descender2 {
@@ -1542,8 +1656,8 @@ top:136px;
       height: 87px;
       background: black;
       background: black;  
-      animation-name: move;
-      animation-duration: 4s;
+      -name: move;
+      -duration: 4s;
 
     }
     .descender3 {
@@ -1551,24 +1665,24 @@ top:136px;
       height: 94px;
       background: black;
     background: black;  
-    animation-name: move;
-      animation-duration: 4s;}
+    -name: move;
+      -duration: 4s;}
 
     .descendermedium {
       width: 19px;
       height: 95px;
       background: black;
     background: black;  
-    animation-name: move;
-      animation-duration: 4s;}
+    -name: move;
+      -duration: 4s;}
 
       .descendermedium2 {
       width: 19px;
       height: 85px;
       background: black;
     background: black;  
-    animation-name: move;
-      animation-duration: 4s;}
+    -name: move;
+      -duration: 4s;}
 
 
 .talldescender {
@@ -1576,17 +1690,19 @@ top:136px;
       height: 114px;
       background: black;
       background: black;  
-      animation-name: move;
-      animation-duration: 4s;
+      -name: move;
+      -duration: 4s;
     }
+
+
 
     .talldescender3 {
         width: 19px;
       height: 104px;
       background: black;
       background: black;  
-      animation-name: move;
-      animation-duration: 4s;
+      -name: move;
+      -duration: 4s;
 
     }
 
@@ -1596,8 +1712,8 @@ top:136px;
       background: black;
       transform: skewY(-45deg);
       background: black;  
-      animation-name: move;
-      animation-duration: 4s;
+      -name: move;
+      -duration: 4s;
 
     }
 
@@ -1607,8 +1723,8 @@ top:136px;
       background: black;
       transform: skewY(-45deg);
       background: black;  
-      animation-name: move;
-      animation-duration: 4s;
+      -name: move;
+      -duration: 4s;
 
     }
 
@@ -1617,8 +1733,18 @@ top:136px;
       height: 21px;
       background: black;
       transform: skewY(-45deg);
-      animation-name: move;
-      animation-duration: 4s;
+      -name: move;
+      -duration: 4s;
+
+    }
+
+    .sharpdescendershort2 {
+      width: 19px;
+      height: 21px;
+      background: black;
+      transform: skewY(-45deg);
+      -name: move;
+      -duration: 4s;
 
     }
 
@@ -1626,9 +1752,15 @@ top:136px;
       width: 19px;
       height: 104px;
       background: black;
-      animation-name: move;
-      animation-duration: 4s;
-
+      -name: move;
+      -duration: 4s;
+    }
+   .talldescender2h {
+      width: 19px;
+      height: 104px;
+      background: black;
+      -name: move;
+      -duration: 4s;
     }
 
     .triangle{
@@ -1705,9 +1837,23 @@ top:136px;
       background: black;
   
     }
+    .bottompointh{
+      width: 14px;
+      height: 22px;
+      transform: rotate(135deg);
+      background: black;
+  
+    }
 
 
     .bottompoint2{
+      width: 14px;
+      height: 22px;
+      transform: rotate(135deg);
+      background: black;
+  
+    }
+    .bottompoint2h{
       width: 14px;
       height: 22px;
       transform: rotate(135deg);
@@ -1776,6 +1922,14 @@ top:136px;
   
     }
 
+    .littlelineh{
+      width: 1px;
+      height: 22px;
+      transform: rotate(45deg);
+      background: black;
+  
+    }
+
     .littlelineopposite{
       width: 1px;
       height: 22px;
@@ -1785,6 +1939,13 @@ top:136px;
     }
 
      .littleline2{
+      width: 1px;
+      height: 22px;
+      transform: rotate(45deg);
+      background: black;
+  
+    }
+    .littleline2h{
       width: 1px;
       height: 22px;
       transform: rotate(45deg);
