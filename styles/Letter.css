@@ -1739,6 +1739,93 @@ top:114px;
 
 
 
+.y{
+transform: rotate(180deg);
+position: relative;
+right: 39px;
+top:2px;
+}
+
+.y .descendermedium2 {
+  
+  position: absolute;
+left:20px;
+top:59px;
+}
+
+.y .bottompoint2 {
+  position: absolute;
+left:19px;
+top:45px;
+}
+.y .bottompoint {
+  position: absolute;
+left:26px;
+top:136px;
+}
+
+.y .bottompoint4 {
+  position: absolute;
+left:57px;
+top:136px;
+}
+.y .talldescender2 {
+  
+  position: absolute;
+left:51px;
+top:40px;
+}
+.y .littleline {
+  position: absolute;
+left:15px;
+top:41px;
+}
+
+.y .littleline2 {
+  position: absolute;
+left:74px;
+top:141px;
+}
+
+.y .bottomline3 {
+  position: absolute;
+left:37px;
+top:18px;
+}
+
+.y .bottompoint3 {
+  position: absolute;
+left:50px;
+top:26px;
+}
+.y .triangle2 {
+  position: absolute;
+left:20px;
+top:40px;
+}
+.y .sharpdescender2 {
+  
+  position: absolute;
+left:9px;
+top:9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
