@@ -2910,6 +2910,35 @@ top:162px;
 
 
 
+.period .thicktoppoint2 {
+  position: absolute;
+left:66px;
+top:153px;
+}
+.period .thicktoppoint {
+  position: absolute;
+left:57px;
+top:144px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2925,6 +2954,77 @@ top:144px;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+.quoteright .sharpdescendershort {
+  position: absolute;
+left:59px;
+top:29px;
+}
+.quoteright .thicktoppoint {
+  position: absolute;
+left:57px;
+top:12px;
+}
+.quoteright .sharpdescendershort2 {
+  position: absolute;
+left:23px;
+top:29px;
+}
+.quoteright .thicktoppoint2 {
+  position: absolute;
+left:21px;
+top:12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.quoteleft{
+transform: scaleX(-1);
+position: relative;
+right: 39px;
+}
+.quoteleft .sharpdescendershort {
+  position: absolute;
+left:59px;
+top:29px;
+}
+.quoteleft .thicktoppoint {
+  position: absolute;
+left:57px;
+top:12px;
+}
+.quoteleft .sharpdescendershort2 {
+  position: absolute;
+left:23px;
+top:29px;
+}
+.quoteleft .thicktoppoint2 {
+  position: absolute;
+left:21px;
+top:12px;
+}
 
 
 
