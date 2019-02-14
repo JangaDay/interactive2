@@ -2476,6 +2476,192 @@ top:111px;
 
 
 
+.seven .thicktoppointmiddlex {
+  position: absolute;
+left:16px;
+top:83px;
+}
+.seven .sharpdescender {
+  
+  position: absolute;
+left:53px;
+top:27px;
+}
+.seven .sharpdescender2 {
+  
+  position: absolute;
+left:51px;
+top:114px;
+}
+.seven .sharpdescenderx {
+  
+  position: absolute;
+left:14px;
+top:31px;
+}
+.seven .sharpdescender2x {
+  
+  position: absolute;
+left:13px;
+top:114px;
+}
+.seven .line {
+  position: absolute;
+left:44px;
+top:59px;
+}
+.seven .toptriangle {
+position: absolute;
+left:30px;
+top:33px;
+}
+.seven .diamond3 {
+position: absolute;
+left:20px;
+top:45px;
+}
+.seven .mediumline {
+  position: absolute;
+left:34px;
+top:112px;
+}
+.seven .middleline {
+  position: absolute;
+left:49px;
+top:8px;
+}
+.seven .diamond {
+position: absolute;
+left:42px;
+top:124px;
+}
+.seven .sharpdescendershort {
+  
+  position: absolute;
+left:20px;
+top:39px;
+}
+.seven .sharpdescendershort2 {
+  
+  position: absolute;
+left:51px;
+top:115px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.eight {
+transform: rotate(180deg);
+position: relative;
+right: 39px;
+top:2px;
+}
+.eight .descender {
+  
+  position: absolute;
+left:20px;
+top:68px;
+}
+
+.eight .triangle {
+  position: absolute;
+left:20px;
+top:49px;
+}
+
+.eight .line {
+  position: absolute;
+left:44px;
+top:11px;
+}
+
+.eight .thicktoppoint {
+  position: absolute;
+left:57px;
+top:22px;
+}
+.eight .thicktoppoint2 {
+  position: absolute;
+left:57px;
+top:88px;
+}
+.eight .thicktoppoint3 {
+  position: absolute;
+left:27px;
+top:138px;
+}
+.eight .thicktoppoint4 {
+  position: absolute;
+left:27px;
+top:98px;
+}
+
+.eight .bottompoint2 {
+  position: absolute;
+left:26px;
+top:136px;
+}
+.eight .sharpdescender {
+  
+  position: absolute;
+left:59px;
+top:39px;
+}
+
+.eight .sharpdescendershort {
+  
+  position: absolute;
+left:59px;
+top:106px;
+}
+.eight .middleline {
+  position: absolute;
+left:55px;
+top:68px;
+}
+.eight .middleline2 {
+  position: absolute;
+left:55px;
+top:111px;
+}
+.eight .sharpdescendershort2 {
+  
+  position: absolute;
+left:20px;
+top:125px;
+}
+.eight .sharpdescenderx {
+  
+  position: absolute;
+left:20px;
+top:59px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .nine {
@@ -2829,6 +3015,20 @@ top:131px;
       background: black;
      }
      .thicktoppoint2{
+      width: 14px;
+      height: 26px;
+      transform: rotate(45deg);
+      background: black;
+  
+    }
+    .thicktoppoint3{
+      width: 14px;
+      height: 26px;
+      transform: rotate(45deg);
+      background: black;
+  
+    }
+    .thicktoppoint4{
       width: 14px;
       height: 26px;
       transform: rotate(45deg);
