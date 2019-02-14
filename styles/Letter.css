@@ -17,7 +17,7 @@ body {
   display: grid;
   align-items: center;
   justify-content:center;
-  height:100vh;
+  height:150vh;
   width: 100vw;
   background-color: #f29580;
 
@@ -2212,42 +2212,191 @@ top:111px;
 
 
 
+
+
 .four {
+transform: rotate(180deg);
 position: relative;
-right: 33px;
+right: 39px;
+top:2px;
+}
+
+.four .descendermedium2 {
+  
+  position: absolute;
+left:20px;
+top:59px;
+}
+
+.four .bottompoint2 {
+  position: absolute;
+left:19px;
+top:45px;
+}
+.four .bottompoint {
+  position: absolute;
+left:26px;
+top:136px;
+}
+
+.four .bottompoint4 {
+  position: absolute;
+left:57px;
+top:136px;
 }
 .four .talldescender2 {
   
   position: absolute;
-left:59px;
+left:51px;
 top:40px;
-}
-.four .bottompoint {
-  position: absolute;
-left:65px;
-top:136px;
 }
 .four .littleline {
   position: absolute;
-left:82px;
-top:141px;
+left:15px;
+top:41px;
 }
-.four .bottompoint2 {
-  position: absolute;
-left:58px;
-top:26px;
-}
+
 .four .littleline2 {
   position: absolute;
-left:54px;
-top:21px;
+left:74px;
+top:141px;
 }
-.four .sharpdescendershort2 {
+
+.four .bottomline3 {
+  position: absolute;
+left:37px;
+top:88px;
+}
+
+.four .bottompoint3 {
+  position: absolute;
+left:50px;
+top:26px;
+}
+.four .triangle2 {
+  position: absolute;
+left:20px;
+top:40px;
+}
+.four .sharpdescender2 {
   
   position: absolute;
-left:59px;
-top:133px;
+left:20px;
+top:31px;
 }
+.four .sharpdescenderx {
+  
+  position: absolute;
+left:53px;
+top:86px;
+}
+.four .sharpdescendershort {
+  
+  position: absolute;
+left:20px;
+top:135px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nine {
+transform: rotate(180deg);
+position: relative;
+right: 39px;
+top:2px;
+}
+
+.nine .descendermedium2 {
+  
+  position: absolute;
+left:20px;
+top:59px;
+}
+
+.nine .bottompoint2 {
+  position: absolute;
+left:19px;
+top:45px;
+}
+.nine .bottompoint {
+  position: absolute;
+left:26px;
+top:136px;
+}
+
+.nine .bottompoint4 {
+  position: absolute;
+left:57px;
+top:136px;
+}
+.nine .talldescender2 {
+  
+  position: absolute;
+left:51px;
+top:40px;
+}
+.nine .littleline {
+  position: absolute;
+left:15px;
+top:41px;
+}
+
+.nine .littleline2 {
+  position: absolute;
+left:74px;
+top:141px;
+}
+
+.nine .bottomline3 {
+  position: absolute;
+left:37px;
+top:88px;
+}
+
+.nine .bottompoint3 {
+  position: absolute;
+left:50px;
+top:26px;
+}
+.nine .triangle2 {
+  position: absolute;
+left:20px;
+top:40px;
+}
+.nine .sharpdescender2 {
+  
+  position: absolute;
+left:20px;
+top:31px;
+}
+.nine .sharpdescenderx {
+  
+  position: absolute;
+left:53px;
+top:86px;
+}
+.nine .middleline {
+  position: absolute;
+left:49px;
+top:115px;
+}
+
+
+
 
 
 
