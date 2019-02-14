@@ -2313,6 +2313,171 @@ top:135px;
 
 
 
+
+.five .descender {
+  
+  position: absolute;
+left:20px;
+top:68px;
+}
+
+.five .triangle {
+  position: absolute;
+left:20px;
+top:49px;
+}
+
+.five .line {
+  position: absolute;
+left:44px;
+top:11px;
+}
+
+.five .thicktoppoint {
+  position: absolute;
+left:57px;
+top:22px;
+}
+.five .thicktoppoint2 {
+  position: absolute;
+left:57px;
+top:69px;
+}
+
+.five .bottompoint2 {
+  position: absolute;
+left:26px;
+top:136px;
+}
+.five .sharpdescender {
+  
+  position: absolute;
+left:59px;
+top:39px;
+}
+
+.five .sharpdescendershort {
+  
+  position: absolute;
+left:59px;
+top:106px;
+}
+.five .sharpdescendershort2 {
+  
+  position: absolute;
+left:59px;
+top:87px;
+}
+.five .middleline {
+  position: absolute;
+left:45px;
+top:59px;
+}
+.five .middleline2 {
+  position: absolute;
+left:55px;
+top:111px;
+}
+.five .sharpdescender {
+  
+  position: absolute;
+left:20px;
+top:59px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.six .descender {
+  
+  position: absolute;
+left:20px;
+top:68px;
+}
+
+.six .triangle {
+  position: absolute;
+left:20px;
+top:49px;
+}
+
+.six .line {
+  position: absolute;
+left:44px;
+top:11px;
+}
+
+.six .thicktoppoint {
+  position: absolute;
+left:57px;
+top:22px;
+}
+.six .thicktoppoint2 {
+  position: absolute;
+left:57px;
+top:88px;
+}
+
+.six .bottompoint2 {
+  position: absolute;
+left:26px;
+top:136px;
+}
+.six .sharpdescender {
+  
+  position: absolute;
+left:59px;
+top:39px;
+}
+
+.six .sharpdescendershort {
+  
+  position: absolute;
+left:59px;
+top:106px;
+}
+.six .middleline {
+  position: absolute;
+left:45px;
+top:78px;
+}
+.six .middleline2 {
+  position: absolute;
+left:55px;
+top:111px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .nine {
 transform: rotate(180deg);
 position: relative;
@@ -2393,6 +2558,11 @@ top:86px;
   position: absolute;
 left:49px;
 top:115px;
+}
+.nine .littleline2 {
+  position: absolute;
+left:52px;
+top:131px;
 }
 
 
