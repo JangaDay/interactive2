@@ -1861,15 +1861,41 @@ top:59px;
 }
 .z .toptriangle {
 position: absolute;
-left:33px;
-top:62px;
+left:30px;
+top:33px;
+}
+.z .diamond3 {
+position: absolute;
+left:20px;
+top:45px;
+}
+.z .mediumline {
+  position: absolute;
+left:34px;
+top:112px;
+}
+.z .middleline {
+  position: absolute;
+left:49px;
+top:8px;
 }
 .z .diamond {
 position: absolute;
-left:20px;
-top:142px;
+left:42px;
+top:124px;
 }
-
+.z .sharpdescendershort {
+  
+  position: absolute;
+left:20px;
+top:39px;
+}
+.z .sharpdescendershort2 {
+  
+  position: absolute;
+left:51px;
+top:115px;
+}
 
 
 
