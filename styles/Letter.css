@@ -3074,6 +3074,10 @@ top:12px;
         animation-name: move;
 }
 
+.letter.beenMoused .descenderj {
+        animation-name: move;
+}
+
 .letter.beenMoused .descender2 {
         animation-name: move;
 }
@@ -3141,14 +3145,6 @@ top:12px;
   transform: rotate(135deg);  
 }
 
-.letter.beenMoused .thicktoppoint {
-  transform: rotate(45deg);  
-}
-
-.letter.beenMoused .toppoint {
-  transform: rotate(45deg);  
-}
-
 .letter.beenMoused .sharpdescender {
   transform:scaleY(1) skewY(-45deg);  
 }
@@ -3180,8 +3176,11 @@ top:12px;
       width: 19px;
       height: 68px;
       background: black;  
-      -name: move;
-      -duration: 4s;
+      transform:scaleY(0);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transform-origin: 0 0;
     }
 
     .descender2 {
@@ -3335,7 +3334,7 @@ top:12px;
       animation-timing-function: ease;
       animation-fill-mode: forwards;
       animation-duration: 1s;
-      transform-origin: 0 0;;
+      transform-origin: 0 0;
     }
 
     .triangle{
@@ -3393,12 +3392,7 @@ top:12px;
       width: 14px;
       height: 22px;
       transform: rotate(45deg);
-      background: black;      
-      transform:scaleY(1);  
-      animation-timing-function: ease;
-      animation-fill-mode: forwards;
-      animation-duration: 1s;
-      transition: 1s all ease;
+      background: black;
 
   
     }
@@ -3407,11 +3401,7 @@ top:12px;
       height: 26px;
       transform: rotate(45deg);
       background: black;
-      transform:scaleY(1);  
-      animation-timing-function: ease;
-      animation-fill-mode: forwards;
-      animation-duration: 1s;
-      transition: 1s all ease;
+
      }
 
      .thicktoppointmiddle{
