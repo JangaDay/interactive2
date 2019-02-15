@@ -3049,8 +3049,8 @@ top:12px;
 
 
    @keyframes move {
-  from {transform:scale(0);}
-  to {transform: scale(1);}
+  from {transform:scaleY(0);}
+  to {transform: scaleY(1);}
 }
 
 @keyframes line {
@@ -3066,12 +3066,70 @@ top:12px;
 
 
 
+
+
+
+
+.letter.beenMoused .descender {
+        animation-name: move;
+
+}
+.letter.beenMoused .descender2 {
+        animation-name: move;
+
+}
+.letter.beenMoused .descender3 {
+        animation-name: move;
+
+}
+.letter.beenMoused .talldescender {
+  animation-name: move;
+
+}
+.letter.beenMoused .talldescender3 {
+  animation-name: move;
+
+}
+.letter.beenMoused .talldescender2 {
+  animation-name: move;
+
+}
+.letter.beenMoused .descendermedium {
+  animation-name: move;
+
+}
+.letter.beenMoused .descendermedium2 {
+  animation-name: move;
+
+}
+.letter.beenMoused .line {
+  transform:scaleY(1) rotate(45deg);  
+
+
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
    .descender {
       width: 19px;
       height: 76px;
-      background: black;  
-      -name: move;
-      -duration: 4s;
+      background: black; 
+      transform:scaleY(0);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transform-origin: 0 0;
     }
 
     .descenderj {
@@ -3087,42 +3145,53 @@ top:12px;
       height: 87px;
       background: black;
       background: black;  
-      -name: move;
-      -duration: 4s;
+      transform:scaleY(0);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transform-origin: 0 0;
 
     }
     .descender3 {
       width: 19px;
       height: 94px;
       background: black;
-    background: black;  
-    -name: move;
-      -duration: 4s;}
+      transform:scaleY(0);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transform-origin: 0 0;}
 
     .descendermedium {
       width: 19px;
       height: 95px;
       background: black;
-    background: black;  
-    -name: move;
-      -duration: 4s;}
+      transform:scaleY(0);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transform-origin: 0 0;}
 
       .descendermedium2 {
       width: 19px;
       height: 85px;
       background: black;
-    background: black;  
-    -name: move;
-      -duration: 4s;}
+      transform:scaleY(0);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transform-origin: 0 0;}
 
 
 .talldescender {
       width: 19px;
       height: 114px;
       background: black;
-      background: black;  
-      -name: move;
-      -duration: 4s;
+      transform:scaleY(0);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transform-origin: 0 0;;
     }
 
 
@@ -3130,10 +3199,11 @@ top:12px;
     .talldescender3 {
         width: 19px;
       height: 104px;
-      background: black;
-      background: black;  
-      -name: move;
-      -duration: 4s;
+      transform:scaleY(0);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transform-origin: 0 0;;
 
     }
 
@@ -3205,8 +3275,11 @@ top:12px;
       width: 19px;
       height: 104px;
       background: black;
-      -name: move;
-      -duration: 4s;
+      transform:scaleY(0);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transform-origin: 0 0;
     }
    .talldescender2h {
       width: 19px;
@@ -3383,8 +3456,14 @@ top:12px;
    .line{
       width: 1px;
       height: 67px;
-      transform: rotate(45deg);
+      transform: ;
       background: black;
+      transform:scaleY(0) rotate(45deg);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transform-origin: 0 0;
+      transition: 1s all ease;
     }
 
     .linetee{
