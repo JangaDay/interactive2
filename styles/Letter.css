@@ -1,6 +1,7 @@
 body {
 	background: white;
   margin: 0px;
+  scroll-snap-type: y proximity;
 }
 
 .firstpage{
@@ -10,6 +11,8 @@ body {
   height:100vh;
   width: 100vw;
   background-color: rgb(235, 180, 50);
+    
+scroll-snap-align: start;
 
 }
 
@@ -20,6 +23,7 @@ body {
   height:150vh;
   width: 100vw;
   background-color: #f29580;
+  scroll-snap-align: start;
 
 }
 .lastpage{
@@ -29,7 +33,7 @@ body {
   height:100vh;
   width: 100vw;
   background-color: #0894a1;
-
+scroll-snap-align: start;
 }
 
 .letter{
@@ -3145,7 +3149,35 @@ top:12px;
   transform: rotate(135deg);  
 }
 
+.letter.beenMoused .bottompoint {
+  transform: rotate(135deg);  
+}
+
+.letter.beenMoused .toppoint {
+  transform: rotate(45deg);  
+}
+
+.letter.beenMoused .bottompointh {
+  transform: rotate(135deg);  
+}
+
+.letter.beenMoused .bottompoint2 {
+  transform: rotate(135deg);  
+}
+
 .letter.beenMoused .sharpdescender {
+  transform:scaleY(1) skewY(-45deg);  
+}
+
+.letter.beenMoused .sharpdescender2 {
+  transform:scaleY(1) skewY(-45deg);  
+}
+
+.letter.beenMoused .sharpdescenderx {
+  transform:scaleY(1) skewY(-45deg);  
+}
+
+.letter.beenMoused .sharpdescender2x {
   transform:scaleY(1) skewY(-45deg);  
 }
   
@@ -3268,9 +3300,11 @@ top:12px;
       height: 40px;
       background: black;
       transform: skewY(-45deg);
-      background: black;  
-      -name: move;
-      -duration: 4s;
+      transform:scaleY(0) skewY(-45deg);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transition: 1s all ease;
 
     }
 
@@ -3279,9 +3313,11 @@ top:12px;
       height: 47px;
       background: black;
       transform: skewY(-45deg);
-      background: black;  
-      -name: move;
-      -duration: 4s;
+      transform:scaleY(0) skewY(-45deg);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transition: 1s all ease;
 
     }
 
@@ -3290,9 +3326,11 @@ top:12px;
       height: 40px;
       background: black;
       transform: skewY(-45deg);
-      background: black;  
-      -name: move;
-      -duration: 4s;
+      transform:scaleY(0) skewY(-45deg);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transition: 1s all ease;
 
     }
 
@@ -3342,6 +3380,7 @@ top:12px;
       height: 0;
       border-bottom: 19px solid black;
       border-left: 19px solid transparent;
+
     }
 
     .triangle2{
@@ -3393,9 +3432,13 @@ top:12px;
       height: 22px;
       transform: rotate(45deg);
       background: black;
-
-  
+      transform:scaleY(1);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transition: 1s all ease;
     }
+    
     .thicktoppoint{
       width: 14px;
       height: 26px;
@@ -3444,6 +3487,11 @@ top:12px;
       height: 22px;
       transform: rotate(135deg);
       background: black;
+      transform:scaleY(1);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transition: 1s all ease;
   
     }
     .bottompointh{
@@ -3451,6 +3499,11 @@ top:12px;
       height: 22px;
       transform: rotate(135deg);
       background: black;
+      transform:scaleY(1);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transition: 1s all ease;
   
     }
 
@@ -3460,6 +3513,11 @@ top:12px;
       height: 22px;
       transform: rotate(135deg);
       background: black;
+      transform:scaleY(1);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transition: 1s all ease;
   
     }
     .bottompoint2h{
