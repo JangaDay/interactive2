@@ -20,7 +20,7 @@ scroll-snap-align: start;
   display: grid;
   align-items: center;
   justify-content:center;
-  height:150vh;
+  height:120vh;
   width: 100vw;
   background-color: #f29580;
   scroll-snap-align: start;
