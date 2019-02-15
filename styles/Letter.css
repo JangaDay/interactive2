@@ -3072,56 +3072,73 @@ top:12px;
 
 .letter.beenMoused .descender {
         animation-name: move;
-
 }
+
 .letter.beenMoused .descender2 {
         animation-name: move;
-
 }
+
 .letter.beenMoused .descender3 {
         animation-name: move;
-
 }
+
 .letter.beenMoused .talldescender {
   animation-name: move;
-
 }
+
 .letter.beenMoused .talldescender3 {
   animation-name: move;
-
 }
+
 .letter.beenMoused .talldescender2 {
   animation-name: move;
+}
 
+.letter.beenMoused .talldescender2h {
+  animation-name: move;
 }
 .letter.beenMoused .descendermedium {
   animation-name: move;
-
 }
+
 .letter.beenMoused .descendermedium2 {
   animation-name: move;
-
 }
+
 .letter.beenMoused .line {
   transform:scaleY(1) rotate(45deg);  
 }
+
 .letter.beenMoused .littleline {
   transform:scaleY(1) rotate(45deg);  
 }
+
 .letter.beenMoused .littleline2 {
   transform:scaleY(1) rotate(45deg);  
 }
+
 .letter.beenMoused .mediumline {
   transform:scaleY(1) rotate(45deg);  
 }
+
 .letter.beenMoused .bottomline {
   transform:scaleY(1) rotate(45deg);  
 }
+
+.letter.beenMoused .middleline {
+  transform:scaleY(1) rotate(45deg);  
+}
+
 .letter.beenMoused .middleline2 {
   transform:scaleY(1) rotate(45deg);  
 }
+
+.letter.beenMoused .diamond {
+  transform: rotate(150deg);  
+}
+
 .letter.beenMoused .sharpdescender {
-  transform:scaleY(1) rotate(-45deg);  
+  transform:scaleY(1) skewY(-45deg);  
 }
   
 
@@ -3226,9 +3243,8 @@ top:12px;
       width: 19px;
       height: 48px;
       background: black;
-      transform: skewY(-45deg);
       background: black;  
-      transform:scaleY(0) rotate(-45deg);  
+      transform:scaleY(0) skewY(-45deg);  
       animation-timing-function: ease;
       animation-fill-mode: forwards;
       animation-duration: 1s;
@@ -3303,8 +3319,11 @@ top:12px;
       width: 19px;
       height: 104px;
       background: black;
-      -name: move;
-      -duration: 4s;
+      transform:scaleY(0);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transform-origin: 0 0;;
     }
 
     .triangle{
@@ -3335,6 +3354,11 @@ top:12px;
       height: 14px;
       transform: rotate(45deg);
       background: black;
+      transform:scaleY(1);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transition: 1s all ease;
 
   
     }
@@ -3586,8 +3610,12 @@ top:12px;
       height: 63px;
       transform: rotate(45deg);
       background: black;
-  
-    }
+      transform:scaleY(0) rotate(45deg);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transition: 1s all ease;
+      }
 
     .middleline2{
       width: 1px;
