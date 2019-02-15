@@ -3109,6 +3109,10 @@ top:12px;
   transform:scaleY(1) rotate(45deg);  
 }
 
+.letter.beenMoused .linetee {
+  transform:scaleY(1) rotate(45deg);  
+}
+
 .letter.beenMoused .littleline {
   transform:scaleY(1) rotate(45deg);  
 }
@@ -3134,7 +3138,15 @@ top:12px;
 }
 
 .letter.beenMoused .diamond {
-  transform: rotate(150deg);  
+  transform: rotate(135deg);  
+}
+
+.letter.beenMoused .thicktoppoint {
+  transform: rotate(45deg);  
+}
+
+.letter.beenMoused .toppoint {
+  transform: rotate(45deg);  
 }
 
 .letter.beenMoused .sharpdescender {
@@ -3381,7 +3393,13 @@ top:12px;
       width: 14px;
       height: 22px;
       transform: rotate(45deg);
-      background: black;
+      background: black;      
+      transform:scaleY(1);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transition: 1s all ease;
+
   
     }
     .thicktoppoint{
@@ -3389,6 +3407,11 @@ top:12px;
       height: 26px;
       transform: rotate(45deg);
       background: black;
+      transform:scaleY(1);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transition: 1s all ease;
      }
 
      .thicktoppointmiddle{
@@ -3511,6 +3534,11 @@ top:12px;
       height: 101px;
       transform: rotate(45deg);
       background: black;
+      transform:scaleY(0) rotate(45deg);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transition: 1s all ease;
   
     }
 
