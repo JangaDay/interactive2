@@ -3104,10 +3104,25 @@ top:12px;
 }
 .letter.beenMoused .line {
   transform:scaleY(1) rotate(45deg);  
-
-
 }
-
+.letter.beenMoused .littleline {
+  transform:scaleY(1) rotate(45deg);  
+}
+.letter.beenMoused .littleline2 {
+  transform:scaleY(1) rotate(45deg);  
+}
+.letter.beenMoused .mediumline {
+  transform:scaleY(1) rotate(45deg);  
+}
+.letter.beenMoused .bottomline {
+  transform:scaleY(1) rotate(45deg);  
+}
+.letter.beenMoused .middleline2 {
+  transform:scaleY(1) rotate(45deg);  
+}
+.letter.beenMoused .sharpdescender {
+  transform:scaleY(1) rotate(-45deg);  
+}
   
 
 
@@ -3213,8 +3228,11 @@ top:12px;
       background: black;
       transform: skewY(-45deg);
       background: black;  
-      -name: move;
-      -duration: 4s;
+      transform:scaleY(0) rotate(-45deg);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transition: 1s all ease;
 
     }
 
@@ -3456,13 +3474,11 @@ top:12px;
    .line{
       width: 1px;
       height: 67px;
-      transform: ;
       background: black;
       transform:scaleY(0) rotate(45deg);  
       animation-timing-function: ease;
       animation-fill-mode: forwards;
       animation-duration: 1s;
-      transform-origin: 0 0;
       transition: 1s all ease;
     }
 
@@ -3479,6 +3495,11 @@ top:12px;
       height: 22px;
       transform: rotate(45deg);
       background: black;
+      transform:scaleY(0) rotate(45deg);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transition: 1s all ease;
   
     }
 
@@ -3503,8 +3524,14 @@ top:12px;
       height: 22px;
       transform: rotate(45deg);
       background: black;
+      transform:scaleY(0) rotate(45deg);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transition: 1s all ease;
   
     }
+    
     .littleline2h{
       width: 1px;
       height: 22px;
@@ -3518,6 +3545,11 @@ top:12px;
       height: 60px;
       transform: rotate(45deg);
       background: black;
+      transform:scaleY(0) rotate(45deg);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transition: 1s all ease;
   
     }
 
@@ -3526,6 +3558,11 @@ top:12px;
       height: 41px;
       transform: rotate(45deg);
       background: black;
+      transform:scaleY(0) rotate(45deg);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transition: 1s all ease;
   
     }
 
@@ -3557,16 +3594,14 @@ top:12px;
       height: 57px;
       transform: rotate(45deg);
       background: black;
+      transform:scaleY(0) rotate(45deg);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transition: 1s all ease;
   
     }
 
-     .littleline2{
-      width: 1px;
-      height: 22px;
-      transform: rotate(45deg);
-      background: black;
-  
-    }
 
      .toptriangle {
       width: 0;
