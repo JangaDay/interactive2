@@ -3154,7 +3154,7 @@ top:12px;
 }
 
 .letter.beenMoused .toppoint {
-  transform: rotate(45deg);  
+  transform: scaleY(1) rotate(45deg);  
 }
 
 .letter.beenMoused .bottompointh {
