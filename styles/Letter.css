@@ -13,6 +13,11 @@ body {
   background-color: rgb(235, 180, 50);
     
 scroll-snap-align: start;
+-webkit-animation-name: fade 5s;
+animation-name: opacity 5s;
+-moz-animation: opacity 5s;
+-o-animation: opacity 5s;
+
 
 }
 
@@ -3064,6 +3069,11 @@ top:12px;
       height: 67px;}
 }
    
+
+      @keyframes opac {
+  from 0%{opacity:0;}
+  to 100%{opacity:1;}
+}
 
 
 
