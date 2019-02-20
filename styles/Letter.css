@@ -54,7 +54,11 @@ scroll-snap-align: start;
 
 
 
-
+.space{
+  clear:right;
+  float:none;
+  right:200px;
+}
 
 
 
