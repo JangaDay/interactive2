@@ -56,10 +56,6 @@ scroll-snap-align: start;
 
 
 
-.letter.lastpage{
-  right:20px;}
-
-
 
 
 
@@ -3159,7 +3155,7 @@ top:12px;
 }
 
 .letter.beenMoused .middleline2 {
-  transform:scaleY(1) rotate(-45deg);  
+  transform:scaleY(1) rotate(45deg);  
 }
 
 .letter.beenMoused .diamond {
@@ -3613,9 +3609,10 @@ top:12px;
       transform: rotate(45deg);
       background: black;
       transform:scaleY(0) rotate(45deg);  
+      animation-timing-function: ease;
       animation-fill-mode: forwards;
       animation-duration: 1s;
-      transition: 1s;
+      transition: 1s all ease;
   
     }
 
