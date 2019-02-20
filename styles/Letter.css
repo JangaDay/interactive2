@@ -48,8 +48,14 @@ scroll-snap-align: start;
 
 
 
+.marge{
+  margin-left: 50px;
+}
 
 
+.marge1{
+  margin-left: 40px;
+}
 
 
 
@@ -2987,6 +2993,9 @@ top:144px;
 
 
 
+.quoteright{
+top:20px;
+}
 
 .quoteright .sharpdescendershort {
   position: absolute;
@@ -3027,6 +3036,7 @@ top:12px;
 transform: scaleX(-1);
 position: relative;
 right: 39px;
+top:20px;
 }
 .quoteleft .sharpdescendershort {
   position: absolute;
@@ -3187,6 +3197,10 @@ top:12px;
 
 .letter.beenMoused .toppoint {
   transform: scaleY(1) rotate(45deg);  
+}
+
+.letter.beenMoused .thicktoppoint {
+  transform: scaleY(1) rotate(225deg);  
 }
 
 .letter.beenMoused .bottompointh {
@@ -3476,6 +3490,11 @@ top:12px;
       height: 26px;
       transform: rotate(45deg);
       background: black;
+      transform:scaleY(1);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transition: 1s all ease;
 
      }
 
