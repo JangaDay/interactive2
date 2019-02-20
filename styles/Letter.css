@@ -3095,8 +3095,8 @@ top:12px;
    
 
       @keyframes opac {
-  from 0%{opacity:0;}
-  to 100%{opacity:1;}
+  from {opacity:.1;}
+  to {opacity:1;}
 }
 
 
@@ -3104,8 +3104,14 @@ top:12px;
 
 
 
-
-
+.letter {
+  animation: opac 75ms ease-out;
+  animation-fill-mode: both;
+  animation-play-state:paused;
+}
+.letter.beenMoused {
+ animation-play-state:running;
+}
 
 
 .letter.beenMoused .descender {
