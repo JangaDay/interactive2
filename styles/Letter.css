@@ -212,7 +212,10 @@ top:111px;
 
 
 
-
+.c{
+position: relative;
+right: -16px;
+}
 .c .descender {
   
   position: absolute;
@@ -328,6 +331,10 @@ top:30px;
 
 
 
+.e{
+position: relative;
+right: -7px;
+}
 
 .e .descendermedium {
 	
@@ -630,7 +637,7 @@ top:103px;
 
 .i{
 position: relative;
-right: 33px;
+right: 20px;
 }
 .i .talldescender2 {
   
@@ -1413,7 +1420,7 @@ top:108px;
 
 .t{
 position: relative;
-right: 7px;
+right: -16px;
 }
 .t .descender {
   position: absolute;
@@ -3142,7 +3149,15 @@ top:12px;
   transform:scaleY(1) rotate(45deg);  
 }
 
+.letter.beenMoused .littlelineh {
+  transform:scaleY(1) rotate(45deg);  
+}
+
 .letter.beenMoused .littleline2 {
+  transform:scaleY(1) rotate(45deg);  
+}
+
+.letter.beenMoused .littleline2h {
   transform:scaleY(1) rotate(45deg);  
 }
 
@@ -3625,6 +3640,11 @@ top:12px;
       height: 22px;
       transform: rotate(45deg);
       background: black;
+      transform:scaleY(0) rotate(45deg);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transition: 1s all ease;
   
     }
 
@@ -3654,6 +3674,11 @@ top:12px;
       height: 22px;
       transform: rotate(45deg);
       background: black;
+      transform:scaleY(0) rotate(45deg);  
+      animation-timing-function: ease;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      transition: 1s all ease;
   
     }
 
