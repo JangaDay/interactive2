@@ -13,10 +13,8 @@ body {
   background-color: rgb(235, 180, 50);
     
 scroll-snap-align: start;
--webkit-animation-name: fade 5s;
-animation-name: opacity 5s;
--moz-animation: opacity 5s;
--o-animation: opacity 5s;
+-webkit-animation-name: opac 5s;
+animation-name: opac 5s;
 
 
 }
@@ -3724,6 +3722,9 @@ top:12px;
       border-right: 15px solid transparent;
       transform: rotate(-45deg);
     }
+
+
+
 
     
 
