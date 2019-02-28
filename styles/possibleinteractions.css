@@ -1,0 +1,268 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Roboto Mono', monospace;
+}
+
+/* container */
+
+.container {
+	position: relative;
+}
+
+/* items */
+
+.item {
+	height: 200px;
+	width: 200px;
+	background: black;
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 100px;
+}
+
+.item1 {
+	height: 200px;
+	width: 200px;
+	background-color: #6BE8C5;
+	background-image: linear-gradient(to bottom right, #6BE8C5, #87EE19);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 100px;
+}
+
+
+.item2 {
+	height: 200px;
+	width: 200px;
+	background-color: #F1DE36;
+	background-image: linear-gradient(to bottom right, #F1DE36, #F19F36);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 100px;
+
+}
+
+.item3 {
+	height: 200px;
+	width: 200px;
+	background-color: #36B0F1;
+	background-image: linear-gradient(to bottom right, #36B0F1, #948FFE);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 100px;
+
+}
+
+.item4 {
+	height: 200px;
+	width: 200px;
+	background-color: beige;
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 100px;
+
+}
+
+.item5 {
+	height: 200px;
+	width: 200px;
+	background-color: #C419F3;
+	background-image: linear-gradient(to bottom right, #C419F3, #F2AF14);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 100px;
+	transition: width 100ms, height 100ms;
+
+}
+
+
+.item6 {
+	height: 200px;
+	width: 200px;
+	background-color: #E15C5C;
+	background-image: linear-gradient(#E15C5C, #D56CF9);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 100px;
+	transition: width 100ms, height 100ms;
+
+}
+
+.item7 {
+	height: 200px;
+	width: 200px;
+	background-color: #E5CDED;
+	background-image: linear-gradient(#E5CDED, #FFD500);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 100px;
+
+}
+
+
+.item8 {
+	height: 200px;
+	width: 200px;
+	background-color: #FFE97C;
+	background-image: linear-gradient( to right, #FFE97C, #064B00);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 100px;
+
+
+}
+.item8:active {
+	        box-shadow:
+                1px 1px #53a7ea,
+                2px 2px #53a7ea,
+                30px 30px #53a7ea;
+        transform: translateX(-3px);
+}
+
+
+
+.item9 {
+	height: 200px;
+	width: 200px;
+	background-color: #14FF00;
+	background-image: linear-gradient( to bottom left, #14FF00, #00B9FF);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 100px;
+
+
+}
+
+.item9:hover {
+{
+        box-shadow: inset 0 0 0 0px #53a7ea;
+}
+
+
+/* example element 1 */
+
+#element-1:hover {
+	transform: rotate(360deg) scale(3);
+	opacity: .3;
+}
+
+#element-2:active {
+	background: #6BE8C5;
+	opacity: 1;
+}
+
+
+#element-2::after {
+	content: 'Hover me';
+	color: white;
+    position: relative;
+	left: 50px;
+	top:50px;
+}
+
+
+#element-2:hover::after {
+	content: 'Click me';
+	position: relative;
+	left: 50px;
+	top:50px;
+	color: yellow;
+}
+
+#element-3{
+
+}
+
+/* example element 3 is changed only via js */
+
+/* example element 4 */
+#element-4:hover
+ {
+	background: linear-gradient(blue, pink);
+	color: transparent;
+}
+
+#element-5:hover
+ {
+  width: 300px;
+  height: 300px;
+}
+
+#element-2:active {
+	background:background-color: #36B0F1;
+	border-radius: 500px;
+}
+
+.circle {
+	border-radius: 125px;
+}
+
+/* example element 6 */
+#element-6{
+	transition: none; 
+}
+
+#element-7:hover{
+        transform: rotateZ(180deg);
+        border-radius: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
