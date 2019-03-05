@@ -130,6 +130,22 @@ item29.addEventListener('scroll',function(){
 
 
 
+let item44 = document.querySelector('.item44')
+let scroller9 = document.querySelector('.item44 .scroller')
+
+item44.addEventListener('scroll',function(){
+  item44.classList.add('anim')
+})
+
+
+
+
+let item45 = document.querySelector('.item45')
+let scroller10 = document.querySelector('.item45 .scroller')
+
+item45.addEventListener('scroll',function(){
+  item45.classList.add('animtwo')
+})
 
 
 
