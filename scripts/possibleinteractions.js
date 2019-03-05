@@ -38,3 +38,109 @@ element4.addEventListener('click',function(){
 element5.addEventListener('click', function(){
   this.nextElementSibling.classList.toggle('circle');
 })
+
+
+
+
+
+
+
+let item22 = document.querySelector('.item22')
+let scroller = document.querySelector('.item22 .scroller')
+
+item22.addEventListener('scroll',function(){
+  scroller.style.fontFamily = 'sans-serif'
+
+})
+
+
+
+
+
+let item23 = document.querySelector('.item23')
+let scroller2 = document.querySelector('.item23 .scroller')
+
+item23.addEventListener('scroll',function(){
+  item23.style.borderRadius = 0
+})
+
+
+
+let item24 = document.querySelector('.item24')
+let scroller3 = document.querySelector('.item24 .scroller')
+
+item24.addEventListener('scroll',function(){
+  item24.style.background = 'blue'
+})
+
+
+let item25 = document.querySelector('.item25')
+let scroller4 = document.querySelector('.item25 .scroller')
+
+item25.addEventListener('scroll',function(){
+  item25.classList.add('spin')
+})
+
+
+
+
+let item26 = document.querySelector('.item26')
+let scroller5 = document.querySelector('.item26 .scroller')
+
+item26.addEventListener('scroll',function(){
+  item26.classList.add('spinmore')
+})
+
+
+
+
+
+
+
+
+
+let item27 = document.querySelector('.item27')
+let scroller6 = document.querySelector('.item27 .scroller')
+
+item27.addEventListener('scroll',function(){
+  item27.classList.add('spinevenmore')
+})
+
+
+
+
+
+
+let item28 = document.querySelector('.item28')
+let scroller7 = document.querySelector('.item28 .scroller')
+
+item28.addEventListener('scroll',function(){
+  item28.classList.add('shrink')
+})
+
+
+
+let item29 = document.querySelector('.item29')
+let scroller8 = document.querySelector('.item29 .scroller')
+
+item29.addEventListener('scroll',function(){
+  item29.classList.add('shrink')
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
