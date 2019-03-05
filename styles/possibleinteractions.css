@@ -182,6 +182,7 @@ body {
 border-radius: 0px;
 	height: 500px;
 	width: 500px;
+
 }
 
 
@@ -269,9 +270,7 @@ border-radius: 0px;
 
 
 
-.item11:before {
-  content: '';
-  position: absolute;
+.item11:hover{
   border: #e1e1e1 solid 6px;
   top: 0;
   right: 0;
@@ -279,14 +278,12 @@ border-radius: 0px;
   left: 0;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  border-radius: 100px
+  border-radius: 100px;
+   animation-name: spinback;
+	animation-duration: 4s;
+	animation-iteration-count: 1000000000;
 }
 
-
-
-.item11:hover:before {
-  -webkit-animation-name: hvr-ripple-out;
-  animation-name: hvr-ripple-out;}
 
 
 
@@ -423,13 +420,13 @@ border-radius: 0px;
 
 .item14:hover {
   -webkit-transform: translateY(-5px);
-  transform: translateY(-5px);
+  transform: translateY(-50px);
 
 }
 .item14:hover:before{
   opacity: 1;
   -webkit-transform: translateY(5px);
-  transform: translateY(5px);
+  transform: translateY(50px);
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
 
@@ -550,7 +547,7 @@ transform: skew(55deg);
 }
 
 .item18:hover{
-  box-shadow: 0 0 200px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 200px rgba(255, 87, 51, 20);
 }
 
 
@@ -1441,8 +1438,8 @@ right:10px;
 .item50 {
 	height: 200px;
 	width: 200px;
-	background-color: #259B00;
-	background-image: linear-gradient( to bottom right , #259B00, #00C9FF);
+	background-color: #FFC500;
+	background-image: linear-gradient( to bottom right , #FFC500, #9BFF00);
 	color: white;
 	margin: 10px auto;
 	padding: 10px;
@@ -1542,6 +1539,19 @@ right:10px;
 
 }
 
+.animseven{
+	height:200px;
+	width: 200px;
+	background-color: #FFC500;
+	background-image: linear-gradient( to  bottom right, #FFC500, #9BFF00);
+			transition: all 500ms ease;
+			animation-name: pulseback;
+			animation-duration: 3s;
+			animation-iteration-count: infinite;
+
+
+}
+
 
 .spin {
 	background-image: linear-gradient( to right, #4B64EF, #14FF35);
@@ -1618,22 +1628,7 @@ right:10px;
 }
 
 
-#element-2::after {
-	content: 'Hover me';
-	color: white;
-    position: relative;
-	left: 50px;
-	top:50px;
-}
 
-
-#element-2:hover::after {
-	content: 'Click me';
-	position: relative;
-	left: 50px;
-	top:50px;
-	color: yellow;
-}
 
 #element-3{
 
@@ -1691,43 +1686,43 @@ right:10px;
 @keyframes hvr-buzz-out {
   10% {
     -webkit-transform: translateX(3px) rotate(2deg);
-    transform: translateX(3px) rotate(2deg);
+    transform: translateX(5px) rotate(4deg);
   }
   20% {
     -webkit-transform: translateX(-3px) rotate(-2deg);
-    transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-5px) rotate(-4deg);
   }
   30% {
     -webkit-transform: translateX(3px) rotate(2deg);
-    transform: translateX(3px) rotate(2deg);
+    transform: translateX(5px) rotate(4deg);
   }
   40% {
     -webkit-transform: translateX(-3px) rotate(-2deg);
-    transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-5px) rotate(-4deg);
   }
   50% {
     -webkit-transform: translateX(2px) rotate(1deg);
-    transform: translateX(2px) rotate(1deg);
+    transform: translateX(4px) rotate(3deg);
   }
   60% {
     -webkit-transform: translateX(-2px) rotate(-1deg);
-    transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-4px) rotate(-2deg);
   }
   70% {
     -webkit-transform: translateX(2px) rotate(1deg);
-    transform: translateX(2px) rotate(1deg);
+    transform: translateX(4px) rotate(3deg);
   }
   80% {
     -webkit-transform: translateX(-2px) rotate(-1deg);
-    transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-4px) rotate(-3deg);
   }
   90% {
     -webkit-transform: translateX(1px) rotate(0);
-    transform: translateX(1px) rotate(0);
+    transform: translateX(2px) rotate(0);
   }
   100% {
     -webkit-transform: translateX(-1px) rotate(0);
-    transform: translateX(-1px) rotate(0);
+    transform: translateX(-2px) rotate(0);
   }
 }
 
@@ -2080,11 +2075,33 @@ right:10px;
 50% {
 	transform: scale(1);
 	border-radius: 0px;
+	transform: rotate(180deg);
 
 }
 100% {
 	transform: scale(.3);
 	border-radius: 100px;
+
+	
+}
+}
+
+@keyframes pulseback {
+0% {
+	transform: scale(1);
+	border-radius: 100px;
+		transform: rotate(-180deg);
+
+}
+50% {
+	transform: scale(.3);
+	border-radius: 0px;
+
+}
+100% {
+	transform: scale(1);
+	border-radius: 100px;
+		transform: rotate(-180deg);
 
 	
 }
