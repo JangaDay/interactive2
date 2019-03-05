@@ -124,7 +124,7 @@ let item29 = document.querySelector('.item29')
 let scroller8 = document.querySelector('.item29 .scroller')
 
 item29.addEventListener('scroll',function(){
-  item29.classList.add('shrink')
+  item29.classList.add('superspin')
 })
 
 

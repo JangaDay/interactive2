@@ -826,11 +826,232 @@ right:10px;
 	box-sizing: border-box;
 	transition: all 500ms ease; 
 	cursor: pointer;
+	border-radius: 0px;
+	overflow: auto; 
+}
+
+
+
+
+.item30 {
+	height: 1px;
+	width: 600px;
+	background-color: #FB12FF;
+	background-image: linear-gradient( to bottom, #FB12FF, #FF871D);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
 	border-radius: 200px;
 	overflow: auto; 
 }
 
 
+
+.item30:active{
+	height: 1px;
+	width: 600px;
+	background-color: #FB12FF;
+	background-image: linear-gradient( to  top right, #FB12FF, #FF871D);
+		border-radius: 50px; 
+		transform: rotate(180deg);
+			transition: all 500ms ease;
+			position: absolute;
+			left:800px;
+			transform: rotate(180deg);
+
+}
+
+
+
+
+
+
+
+
+
+
+.item31 {
+	height: 200px;
+	width: 200px;
+	background-color: #00A6FF;
+	background-image: linear-gradient( to bottom, #00A6FF, #FF871D);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 200px;
+	overflow: auto; 
+}
+
+
+.item31:hover{
+	height:3000px;
+	width: 3000px;
+	background-color: #FB12FF;
+	background-image: linear-gradient( to  top right, #FB12FF, #2CE6E0);
+		border-radius: 50px; 
+			transition: all 500ms ease;
+
+}
+
+
+
+
+.item32 {
+	height: 200px;
+	width: 200px;
+	background-color: #8A00A5;
+	background-image: linear-gradient( to top right, #8A00A5, #2CE6E0);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 200px;
+	overflow: auto; 
+}
+
+
+.item32:active{
+	height:3000px;
+	width: 3px;
+	background-color: #4B64EF;
+	background-image: linear-gradient( to  top right, #4B64EF, #8A00A5);
+		border-radius: 50px; 
+			transition: all 500ms ease;
+
+}
+
+
+
+
+
+
+.item33 {
+	height: 200px;
+	width: 200px;
+	background-color: #4B64EF;
+	background-image: linear-gradient( to top right, #4B64EF, #2CE6E0);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 200px;
+	overflow: auto; 
+}
+
+
+.item33:hover{
+	height:200px;
+	width: 200px;
+	background-color: #2CE6E0;
+	background-image: linear-gradient( to  top right, #2CE6E0, #4B64EF);
+		border-radius: 50px; 
+			transition: all 500ms ease;
+			animation-name: spin;
+			animation-duration: 5s;
+			animation-iteration-count: infinte;
+
+}
+
+
+.item34 {
+	height: 200px;
+	width: 200px;
+	background-color: #6BE8C5;
+	background-image: linear-gradient( to top right, #6BE8C5, #00AFE3);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 200px;
+	overflow: auto; 
+	position:relative;
+}
+
+
+.item34:hover{
+	height:200px;
+	width: 200px;
+	background-color: #2CE6E0;
+	background-image: linear-gradient( to  top right, #2CE6E0, #4B64EF);
+		border-radius: 50px; 
+			transition: all 500ms ease;
+			animation-name: move;
+			animation-duration: 4s;
+			animation-iteration-count: infinte;
+
+}
+
+
+.item35 {
+	height: 200px;
+	width: 200px;
+	background-color: #00EF7F;
+	background-image: linear-gradient( to top right, #00EF7F, #990079);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 200px;
+	overflow: auto; 
+	position:relative;
+}
+
+
+.item35:hover{
+	height:200px;
+	width: 200px;
+	background-color: #00EF7F;
+	background-image: linear-gradient( to  top right, #00EF7F, #990079);
+			transition: all 500ms ease;
+			animation-name: moveing;
+			animation-duration: 4s;
+			animation-iteration-count: infinte;
+
+}
+
+
+.item36 {
+	height: 200px;
+	width: 200px;
+	background-color: #FF8000;
+	background-image: linear-gradient( to top right, #FF8000, #900C3F);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 200px;
+	overflow: auto; 
+	position:relative;
+}
+
+
+.item36:active{
+	height:200px;
+	width: 200px;
+	background-color: #00EF7F;
+	background-image: linear-gradient( to  top right, #00EF7F, #990079);
+			transition: all 500ms ease;
+			animation-name: updown;
+			animation-duration: 4s;
+			animation-iteration-count: infinte;
+
+}
 
 
 
@@ -879,7 +1100,17 @@ right:10px;
 
 }
 
+.superspin {
+	height: 200px;
+	width: 200px;
+	background-color: #FF871D;
+	background-image: linear-gradient( to  top right, #FF871D, #1DB4FF);
+	  box-shadow: 0 0 200px rgba(0, 0, 0, 0.6);
+	  transform: rotate(720deg);
+	  border-radius: 200px;
+	  transition: all 3000ms ease;
 
+}
 
 
 
@@ -1027,12 +1258,46 @@ right:10px;
 
 
 
+@keyframes spin {  
+	from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+
+
+
+@keyframes move {  
+  0%   {background: linear-gradient(blue, pink); left:0px; top:0px;}
+  25%  {background: linear-gradient(red, yellow); left:200px; top:0px;}
+  50%  {background: linear-gradient(orange,pink); left:0px; top:200px;}
+  75%  {background: linear-gradient(white, green); left:200px; top:200px;}
+  100% {background: linear-gradient(purple, blue); left:0px; top:0px;}
+}
 
 
 
 
 
 
+@keyframes moveing {  
+  0%   { left:0px; top:0px;
+  	border-radius: 20px}
+  25%  { right:500px; top:0px;}
+  50%  { left:0px; top:200px;
+  	border-radius: 0px}
+  75%  { left:200px; top:200px;}
+  100% { left:0px; top:0px;}
+}
+
+
+
+@keyframes updown {  
+  0%   { left:0px; top:0px;}
+  25%  { right:0px; top:200px;}
+  50%  { left:0px; top:-200px;}
+  75%  { left:0px; top:200px;}
+  100% { left:0px; top:0px;}
+}
 
 
 
