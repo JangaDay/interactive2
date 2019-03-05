@@ -1055,6 +1055,139 @@ right:10px;
 
 
 
+.item37 {
+	height: 200px;
+	width: 200px;
+	background-color: #A6FF00;
+	background-image: linear-gradient( to bottom right, #A6FF00, #5BC6FF);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 200px;
+	overflow: auto; 
+	position:relative;
+}
+
+
+.item37:active{
+	height:200px;
+	width: 200px;
+	background-color: #A6FF00;
+	background-image: linear-gradient( to  bottom right, #A6FF00, #5BC6FF);
+			transition: all 500ms ease;
+			animation-name: updownspin;
+			animation-duration: 4s;
+			animation-iteration-count: infinte;
+			border-radius: 50px;
+
+}
+
+
+
+
+.item38 {
+	height: 200px;
+	width: 200px;
+	background-color: #FFF700;
+	background-image: linear-gradient( to bottom right, #FFF700, #1B9300);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 200px;
+	overflow: auto; 
+	position:relative;
+}
+
+
+.item38:active{
+	height:200px;
+	width: 200px;
+	background-color: #FFF700;
+	background-image: linear-gradient( to  bottom right, #FFF700, #1B9300);
+			transition: all 500ms ease;
+			animation-name: sidespin;
+			animation-duration: 4s;
+			animation-iteration-count: infinte;
+			border-radius: 50px;
+
+}
+
+
+
+.item39 {
+	height: 200px;
+	width: 200px;
+	background-color: #FF0000;
+	background-image: linear-gradient( to bottom right, #FF0000, #E996FF);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 200px;
+	overflow: auto; 
+	position:relative;
+}
+
+
+.item39:hover{
+	height:200px;
+	width: 200px;
+	background-color: #FF0000;
+	background-image: linear-gradient( to  bottom right, #FF0000, #E996FF);
+			transition: all 500ms ease;
+			animation-name: morespin;
+			animation-duration: 4s;
+			animation-iteration-count: infinte;
+			border-radius: 50px;
+
+}
+
+
+
+.item40 {
+	height: 200px;
+	width: 200px;
+	background-color: #FF0000;
+	background-image: linear-gradient( to bottom right, #FF0000, #E996FF);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 200px;
+	overflow: auto; 
+	position:relative;
+	animation-name: color;
+	animation-duration: 4s;
+	animation-iteration-count: infinte;
+}
+
+
+.item40:hover{
+	height:200px;
+	width: 200px;
+	background-color: #FF0000;
+	background-image: linear-gradient( to  bottom right, #FF0000, #E996FF);
+			transition: all 500ms ease;
+			animation-name: morespin;
+			animation-duration: 4s;
+			animation-iteration-count: infinte;
+			border-radius: 50px;
+
+}
+
+
+
+
 
 
 
@@ -1298,6 +1431,84 @@ right:10px;
   75%  { left:0px; top:200px;}
   100% { left:0px; top:0px;}
 }
+
+
+@keyframes updownspin {  
+  0%   { left:0px; top:0px;}
+  25%  { right:0px; top:200px;
+  			transform: rotate(45deg);
+  			border-radius:50px;}
+  50%  { left:0px; top:-200px;
+  	transform: rotate(90deg);
+  			border-radius:50px}
+  75%  { left:0px; top:200px;
+  	transform: rotate(135deg);
+  			border-radius:50px}
+  100% { left:0px; top:0px;
+  	transform: rotate(180deg);
+  			border-radius:50px}
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes sidespin {  
+  0%   {right:0px; top:0px;}
+  25%  {right:400px; top:0px;
+  			transform: rotate(180deg);
+  			border-radius:20px;}
+  50%  {right:-800px; top:0px;
+  	transform: rotate(360deg);
+  			border-radius:50px}
+  75%  {right:800px; top:0px;
+  	transform: rotate(540deg);
+  			border-radius:20px}
+  100% { right:0px; top:0px;
+  	transform: rotate(720deg);
+  			border-radius:200px}
+}
+
+
+@keyframes morespin {  
+  0%   {right:0px; top:0px;}
+  10%  {right:100px; top:0px;
+  			transform: rotate(180deg);
+  			border-radius:20px;}
+  20%  {right:-100px; top:100px;
+  	transform: rotate(360deg);
+  			border-radius:50px}
+  30%  {right:100px; top:200px;
+  	transform: rotate(540deg);
+  			border-radius:20px}
+  40% { right:-100px; top:300px;
+  	transform: rotate(720deg);
+  			border-radius:200px}
+  50%   {right:100px; top:400px;}
+  60%  {right:-100px; top:50px;
+  			transform: rotate(180deg);
+  			border-radius:20px;}
+  70%  {right:100px; top:300px;
+  	transform: rotate(360deg);
+  			border-radius:50px}
+  80%  {right:-100px; top:200px;
+  	transform: rotate(540deg);
+  			border-radius:20px}
+  90% { right:100px; top:100px;
+  	transform: rotate(720deg);
+  			border-radius:200px}
+   100% { right:-100px; top:0px;
+  	transform: rotate(720deg);
+  			border-radius:200px}
+}
+
+}
+
 
 
 
