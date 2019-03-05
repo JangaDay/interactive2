@@ -1333,7 +1333,7 @@ right:10px;
 	height: 200px;
 	width: 200px;
 	background-color: #5D50FF;
-	background-image: linear-gradient( to bottom  , #5D50FF, #BAFF50);
+	background-image: linear-gradient( to bottom  , #5D50FF, #4B64EF);
 	color: white;
 	margin: 10px auto;
 	padding: 10px;
@@ -1345,6 +1345,121 @@ right:10px;
 	position:relative;
 
 }
+
+
+.item46 {
+	height: 200px;
+	width: 200px;
+	background-color: #70FF00;
+	background-image: linear-gradient( to bottom , #70FF00, #00BDFF);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 75px;
+	overflow: auto; 
+	position:relative;
+		animation-name: spinback;
+	animation-duration: 4s;
+	animation-iteration-count: 1000000000;
+}
+
+
+
+
+
+
+.item47 {
+	height: 200px;
+	width: 200px;
+	background-color: #70B8FF;
+	background-image: linear-gradient( to bottom , #70B8FF, #4B64EF);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 75px;
+	overflow: auto; 
+	position:relative;
+		animation-name: hvr-bob;
+	animation-duration: 4s;
+	animation-iteration-count: 1000000000;
+}
+
+
+
+.item48 {
+	height: 200px;
+	width: 200px;
+	background-color: #E996FF;
+	background-image: linear-gradient( to bottom , #E996FF, #4B64EF);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 75px;
+	overflow: auto; 
+	position:relative;
+		animation-name: sidespinmore;
+	animation-duration: 4s;
+	animation-iteration-count: 1000000000;
+}
+
+
+
+
+
+.item49 {
+	height: 200px;
+	width: 200px;
+	background-color: #259B00;
+	background-image: linear-gradient( to bottom right , #259B00, #00C9FF);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 100px;
+	overflow: auto; 
+	position:relative;
+		animation-name: pulse;
+	animation-duration: 3s;
+	animation-iteration-count: 1000000000;
+}
+
+
+
+
+
+.item50 {
+	height: 200px;
+	width: 200px;
+	background-color: #259B00;
+	background-image: linear-gradient( to bottom right , #259B00, #00C9FF);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 100px;
+	overflow: auto; 
+	position:relative;
+		animation-name: pulsetwo;
+	animation-duration: 3s;
+	animation-iteration-count: 1000000000;
+}
+
+
+
+
 
 
 
@@ -1367,8 +1482,8 @@ right:10px;
 .animtwo{
 	height:200px;
 	width: 200px;
-	background-color: #5D50FF;
-	background-image: linear-gradient( to  bottom right, #5D50FF, #BAFF50);
+	background-color: #00EF7F;
+	background-image: linear-gradient( to  bottom right, #00EF7F, #BAFF50);
 			transition: all 500ms ease;
 			animation-name: animtwo;
 			animation-duration: 4s;
@@ -1377,6 +1492,55 @@ right:10px;
 
 }
 
+.animthree{
+	height:200px;
+	width: 200px;
+	background-color: #FF5050;
+	background-image: linear-gradient( to  bottom right, #FF5050, #50FFB2);
+			transition: all 500ms ease;
+			animation-name: spin;
+			animation-duration: 4s;
+			animation-iteration-count: infinte;
+			border-radius: 50px;
+
+}
+
+.animfour{
+	height:200px;
+	width: 200px;
+	background-color: #FF5050;
+	background-image: linear-gradient( to  bottom right, #FF5050, #50FFB2);
+			transition: all 500ms ease;
+			animation-name: hvr-bobmore;
+			animation-duration: 4s;
+			animation-iteration-count: infinte;
+			border-radius: 50px;
+
+}
+
+
+
+.animfive{
+	height:2px;
+	width: 2px;
+	background-color: #5BD0FF;
+	background-image: linear-gradient( to  bottom right, #5BD0FF, #FB12FF);
+			border-radius: 50px;
+
+}
+
+.animsix{
+	height:200px;
+	width: 200px;
+	background-color: #FF5050;
+	background-image: linear-gradient( to  bottom right, #FF5050, #50FFB2);
+			transition: all 500ms ease;
+			animation-name: pulse;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			border-radius: 100px;
+
+}
 
 
 .spin {
@@ -1750,7 +1914,21 @@ right:10px;
 }
 
 
-
+@keyframes sidespinmore {  
+  0%   {right:0px; top:0px;}
+  25%  {right:40px; top:0px;
+  			transform: rotate(180deg);
+  			border-radius:20px;}
+  50%  {right:-80px; top:0px;
+  	transform: rotate(360deg);
+  			border-radius:50px}
+  75%  {right:80px; top:0px;
+  	transform: rotate(540deg);
+  			border-radius:20px}
+  100% { right:0px; top:0px;
+  	transform: rotate(720deg);
+  			border-radius:200px}
+}
 
 
 
@@ -1838,15 +2016,15 @@ right:10px;
 @keyframes hvr-bob {
   0% {
     -webkit-transform: translateY(-8px);
-    transform: translateY(-8px);
+    transform: translateY(-80px);
   }
   50% {
     -webkit-transform: translateY(-4px);
-    transform: translateY(-4px);
+    transform: translateY(-40px);
   }
   100% {
     -webkit-transform: translateY(-8px);
-    transform: translateY(-8px);
+    transform: translateY(-80px);
   }
 }
 
@@ -1858,7 +2036,20 @@ right:10px;
 }
 
 
-
+@keyframes hvr-bobmore {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(200px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(200px);
+  }
+}
 
 
 
@@ -1872,8 +2063,30 @@ right:10px;
 }
 
 
+@keyframes pulse {
+0% {transform: scale(.5);}
+50% {transform: scale(1.5);}
+100% {transform: scale(.5);}
+}
 
 
 
+@keyframes pulsetwo {
+0% {
+	transform: scale(.3);
+	border-radius: 100px;
 
+}
+50% {
+	transform: scale(1);
+	border-radius: 0px;
+
+}
+100% {
+	transform: scale(.3);
+	border-radius: 100px;
+
+	
+}
+}
 

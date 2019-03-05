@@ -153,6 +153,51 @@ item45.addEventListener('scroll',function(){
 
 
 
+let item46 = document.querySelector('.item46')
+let scroller11 = document.querySelector('.item46 .scroller')
+
+item46.addEventListener('scroll',function(){
+  item46.classList.add('animthree')
+})
+
+
+let item47 = document.querySelector('.item47')
+let scroller12 = document.querySelector('.item47 .scroller')
+
+item47.addEventListener('scroll',function(){
+  item47.classList.add('animfour')
+})
+
+
+
+
+
+
+
+
+let item48 = document.querySelector('.item48')
+let scroller13 = document.querySelector('.item48 .scroller')
+
+item48.addEventListener('scroll',function(){
+  item48.classList.add('animfive')
+})
+
+
+
+let item49 = document.querySelector('.item49')
+let scroller14 = document.querySelector('.item49 .scroller')
+
+item49.addEventListener('scroll',function(){
+  item49.classList.add('animsix')
+})
+
+
+
+
+
+
+
+
 
 
 
