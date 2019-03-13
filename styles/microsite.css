@@ -26,9 +26,10 @@ body {
 	color: white;
 	top:40px;
 	left:50px;
-	height: 350px;
+	height: 40px;
 	width:400px;
 	font-size: 40px;
+	overflow: auto;
 
 
 }
@@ -52,7 +53,7 @@ body {
 	color: white;
 	top:94px;
 	left:55px;
-	height: 350px;
+	height: 35px;
 	width:400px;
 	overflow: auto;
 	font-size: 19px; 
@@ -289,24 +290,24 @@ body {
   	right:400px; 
   	top:600px;
   	transform: rotate(180deg);
-  	border-radius:0px;
+  	border-radius:100px;
   }
   50%  {
   	right:-800px; 
   	top:-600px;
   	transform: rotate(360deg);
-  	border-radius:50px
+  	border-radius:500px
   }
   75%  {
   	right:800px; 
   	top:600px;
   	transform: rotate(540deg);
-  	border-radius:20px}
+  	border-radius:200px}
   100% {
   	right:0px; 
   	top:300px;
   	transform: rotate(720deg);
-  	border-radius:200px}
+  	border-radius:2000px}
 }
 
 

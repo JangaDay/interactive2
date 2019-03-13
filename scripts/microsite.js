@@ -28,7 +28,7 @@ let scrolltwo = document.querySelector('.scrolltwo')
 let scrollthree = document.querySelector('.scrollthree')
 
 scrolltwo.addEventListener('scroll',function(event){
-  scrollthree.scrollTop = event.target.scrollTop
+  scrollplz.scrollTop = event.target.scrollTop
   
 })
 
@@ -44,10 +44,22 @@ scrollthree.addEventListener('scroll',function(event){
 
   let negativeMillis = -event.target.scrollTop/maxScroll * animationLength
 
-
   scrollthree.style.animationDelay = negativeMillis + 'ms'
 })
 
+
+
+
+
+
+
+
+let plz = document.querySelector('.plz')
+
+scrolltwo.addEventListener('scroll',function(event){
+  plz.scrollTop = event.target.scrollTop
+  
+})
 
 
 
