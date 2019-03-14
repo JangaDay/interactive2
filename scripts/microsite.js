@@ -26,6 +26,7 @@ scrollone.addEventListener('scroll',function(event){
 
 let scrolltwo = document.querySelector('.scrolltwo')
 let scrollthree = document.querySelector('.scrollthree')
+let thank = document.querySelector('.thank')
 
 scrolltwo.addEventListener('scroll',function(event){
   scrollplz.scrollTop = event.target.scrollTop
