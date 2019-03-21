@@ -1,0 +1,94 @@
+body {
+	background: white;	
+	color: grey;
+	font-family: 'Barlow', sans-serif;
+
+
+	display: flex;
+	align-items: center;
+  justify-content: center;
+
+  min-height: 100vh;
+  max-width: 100vw;
+}
+
+.classTime {
+	background: white;
+}
+
+#clock {
+	border: 0px solid grey;
+	width: 500px;
+	height: 500px;
+
+	display: grid;
+	align-items: center;
+  justify-content: center;
+  position:relative;
+  border-radius:250px;
+}
+
+clock:hover {
+	border: 1px solid grey;
+	width: 500px;
+	height: 500px;
+
+	display: grid;
+	align-items: center;
+  justify-content: center;
+  position:relative;
+  border-radius:250px;
+}
+
+#secondHand {
+  position:absolute;
+  top:-25px;
+  left:249px;
+  width:2px;
+  height:0px;
+  background:grey;
+  
+  /* spin the second hand from the middle of the clock */
+  transform-origin:1px 275px;
+}
+
+#secondHand:hover {
+  position:absolute;
+  top:-25px;
+  left:249px;
+  width:2px;
+  height:0px;
+  background:grey;
+  color: black;
+  
+  /* spin the second hand from the middle of the clock */
+  transform-origin:1px 275px;
+}
+#secondDot {
+  position:absolute;
+  top:18px;
+  left:-5px;
+  height:12px;
+  width:0px;
+  background:red;
+  border-radius:6px;
+}
+
+
+
+
+secondDot:hover {
+  position:absolute;
+  top:18px;
+  left:-5px;
+  height:12px;
+  width:12px;
+  background:red;
+  border-radius:6px;
+}
+
+
+
+
+
+
