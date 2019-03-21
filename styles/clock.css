@@ -52,6 +52,12 @@ clock:hover {
   transform-origin:1px 275px;
 }
 
+#isNot {
+	width:400px;
+	transform: rotate(90deg);
+	transform-origin: 0;
+}
+
 #secondHand:hover {
   position:absolute;
   top:-25px;
