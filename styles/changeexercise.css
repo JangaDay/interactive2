@@ -1,6 +1,6 @@
 body {
   transition:background 200ms ease;  
-  font-family: 'Major Mono Display', monospace;
+  font-family: 'Raleway', sans-serif;
   background:black;
   color:white;
 
@@ -15,7 +15,6 @@ body {
 
 @media only screen and (max-width: 1440px) and (min-width: 1300px) {
   body {
-    background-color: black;
     animation-name: bgcolor;
     animation-duration: 4s;
     animation-iteration-count: 200000;
