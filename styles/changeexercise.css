@@ -1,0 +1,78 @@
+body {
+  transition:background 200ms ease;  
+  font-size:2vmin;
+  font-family:Menlo, monospace;
+  background:black;
+  color:white;
+
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1000px) {
+  body {
+    background-color: pink;
+  }
+  
+  h1 {
+    width:100vw;
+    position:absolute;
+    top:0;
+    left:0;
+    background:white;
+    transform:rotate(180deg);
+    color:white;
+  }
+  
+  .copy {
+    position:absolute;
+    bottom:0;
+  }
+  #sentence1 {
+  	display: none;
+
+  }
+}
+
+
+
+@media only screen and  (min-width: 601px) {
+  body {
+    padding:10vw;
+  }
+  
+  h1 {
+    border:1px dashed black;
+    padding:30px;
+  }
+  #sentence2 {
+  	display: none;
+  }
+  
+}
+
+
+@media only screen and  (min-width: 700px) {
+  body {
+    padding:10vw;
+  }
+  
+  h1 {
+    border:1px dashed black;
+    padding:30px;
+  }
+    #sentence3 {
+  	display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+}
