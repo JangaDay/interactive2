@@ -126,7 +126,7 @@ background-color: black;
   }
     #sentence4 {
   	display: block;
-    animation-name: spin;
+    animation-name: spi;
     animation-duration: 2s;
     animation-iteration-count: 200000;
 
