@@ -1,0 +1,91 @@
+
+
+body {
+  margin:-1px;
+  background: black;
+  font-family: CooperBlackStd, Helvetica, serif;
+  height: 100vh;
+
+}
+
+
+
+
+
+.steven {
+  font-size: 22px;
+  position: absolute;
+  top:17px;
+  left:19px;
+  color: white;
+  z-index: -1;
+}
+
+
+.summer {
+  font-size: 15px;
+  position: absolute;
+  top:22px;
+  left:240px;
+  color: white;
+  z-index: -1;
+}
+
+.cherry {
+  position: fixed;
+  top:50px;
+  background: url(../final/cherry.svg)no-repeat;
+  background-size: contain;
+  width: 95vw;
+  height: 95vh;
+  transition: all .2s ease-in-out;
+}
+
+.watermelon {
+  position: fixed;
+  top:50px;
+  left:473px;
+  background: url(../final/watermelon.svg)no-repeat;
+  background-size: contain;
+  width: 96vw;
+  height: 96vh;
+  transition: all .2s ease-in-out;
+}
+
+.fruit {
+  position: fixed;
+  top:50px;
+  left:954px;
+  background: url(../final/fruit.svg)no-repeat;
+  background-size: contain;
+  width: 94vw;
+  height: 94vh;
+  transition: all .2s ease-in-out;
+}
+
+
+.cherry:hover {
+  transform: scale(1.1);
+
+
+
+}
+
+
+.watermelon:hover {
+  transform: scale(1.1);
+
+
+
+}
+
+.fruit:hover {
+  transform: scale(1.1);
+
+
+}
+
+
+
+
+

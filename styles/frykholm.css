@@ -4,6 +4,7 @@ body {
   margin:-1px;
   background: black;
   font-family: CooperBlackStd, Helvetica, serif;
+  height: 200vh;
 
 }
 
@@ -13,7 +14,7 @@ body {
 
 
 .teeth {
-  position: absolute;
+  position: fixed;
   background: url(../final/teeth.svg)no-repeat;
   background-size: contain;
   width: 100vw;
@@ -22,12 +23,21 @@ body {
 
 
 .corn {
-  position: absolute;
+  position: fixed;
   top: 515px;
   background: url(../final/corn.svg)no-repeat;
   background-size: contain;
   width: 100vw;
   height: 20vw;
+}
+
+
+.cherry {
+  position: fixed;
+  background: url(../final/cherry2.svg)no-repeat;
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
 }
 
 
