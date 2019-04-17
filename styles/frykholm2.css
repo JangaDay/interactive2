@@ -47,7 +47,7 @@ body {
 .watermelon {
   position: fixed;
   top:50px;
-  left:473px;
+  left:479px;
   background: url(../final/watermelon.svg)no-repeat;
   background-size: contain;
   width: 96vw;
@@ -59,7 +59,7 @@ body {
 .fruit {
   position: fixed;
   top:50px;
-  left:954px;
+  left:962px;
   background: url(../final/fruit.svg)no-repeat;
   background-size: contain;
   width: 94vw;
