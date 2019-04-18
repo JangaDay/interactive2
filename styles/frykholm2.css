@@ -69,7 +69,7 @@ body {
 }
 
 
-.cherry:hover {
+.cherry.hover {
   transform: scale(1.1);
   z-index: 1;
 
@@ -78,7 +78,7 @@ body {
 }
 
 
-.watermelon:hover {
+.watermelon.hover {
   transform: scale(1.1);
   z-index: 1;
 
@@ -86,11 +86,27 @@ body {
 
 }
 
-.fruit:hover {
+.fruit.hover {
   transform: scale(1.1);
   z-index: 1;
 
 
+}
+
+
+
+
+.cherrytext {
+  font-size: 15px;
+  position: absolute;
+  top:22px;
+  left:600px;
+  color: white;
+  z-index: -1;
+  display: none;
+}
+.show {
+display: block !important;
 }
 
 
