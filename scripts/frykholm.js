@@ -8,7 +8,7 @@ let corn = document.querySelector('.corn')
 
 let cherry = document.querySelector('.cherry')
 let watermelon = document.querySelector('.watermelon')
-
+let fruit = document.querySelector('.fruit')
 
 let cherryText = document.querySelector('.cherryText')
 
@@ -55,12 +55,45 @@ window.location.href ="Frykholm%202.html"
 
 	cherry.addEventListener('mouseenter',function(event){
 		watermelon.classList.add('dim')
+		fruit.classList.add('dim')
 		// cherryText.classList.add('show')
 	})
 
 	cherry.addEventListener('mouseleave',function(event){
 		watermelon.classList.remove('dim')
+		fruit.classList.remove('dim')
 	})
 
 
+watermelon.addEventListener('mouseenter',function(event){
+		cherry.classList.add('dim')
+		fruit.classList.add('dim')
+		// cherryText.classList.add('show')
+	})
+
+	watermelon.addEventListener('mouseleave',function(event){
+		cherry.classList.remove('dim')
+		fruit.classList.remove('dim')
+	})
+
+
+	fruit.addEventListener('mouseenter',function(event){
+		cherry.classList.add('dim')
+		watermelon.classList.add('dim')
+		// cherryText.classList.add('show')
+	})
+
+	fruit.addEventListener('mouseleave',function(event){
+		cherry.classList.remove('dim')
+		watermelon.classList.remove('dim')
+	})
+
 }
+
+
+
+
+
+
+
+
