@@ -11,6 +11,8 @@ let watermelon = document.querySelector('.watermelon')
 let fruit = document.querySelector('.fruit')
 
 let cherrytext = document.querySelector('.cherrytext')
+let watermelontext = document.querySelector('.watermelontext')
+let fruittext = document.querySelector('.fruittext')
 
 if(teeth){
 
@@ -65,6 +67,8 @@ window.location.href ="Frykholm%202.html"
 		fruit.classList.remove('dim')
 		cherry.classList.remove('dim')
 		cherrytext.classList.remove('show')
+		watermelontext.classList.remove('show')
+		fruittext.classList.remove('show')
 
 		if(e.clientX < 475){
 			cherry.classList.add('hover')
@@ -75,11 +79,12 @@ window.location.href ="Frykholm%202.html"
 			watermelon.classList.add('hover')
 			cherry.classList.add('dim')
 			fruit.classList.add('dim')
-			// watermelontext.classList.add('show')
+			watermelontext.classList.add('show')
 		} else {
 			fruit.classList.add('hover')
 			cherry.classList.add('dim')
 			watermelon.classList.add('dim')
+			fruittext.classList.add('show')
 		}
 	})
 

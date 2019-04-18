@@ -105,6 +105,29 @@ body {
   z-index: -1;
   display: none;
 }
+
+
+.watermelontext {
+  font-size: 15px;
+  position: absolute;
+  top:22px;
+  left:600px;
+  color: white;
+  z-index: -1;
+  display: none;
+}
+
+
+.fruittext {
+  font-size: 15px;
+  position: absolute;
+  top:22px;
+  left:600px;
+  color: white;
+  z-index: -1;
+  display: none;
+}
+
 .show {
 display: block !important;
 }
