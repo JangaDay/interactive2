@@ -41,7 +41,7 @@ body {
   width: 92vw;
   height: 92vh;
   transition: all .2s ease-in-out;
-  transform-origin: 0%;
+  transform-origin: -10%;
 
 }
 
@@ -54,7 +54,7 @@ body {
   width: 92vw;
   height: 92vh;
   transition: all .2s ease-in-out;
-  transform-origin: 10%;
+  transform-origin: 18%;
 }
 
 .fruit {
@@ -97,3 +97,7 @@ body {
 
 
 
+.dim {
+
+  opacity:0.8;
+}

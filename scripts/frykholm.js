@@ -6,12 +6,18 @@ let teeth = document.querySelector('.teeth')
 
 let corn = document.querySelector('.corn')
 
+let cherry = document.querySelector('.cherry')
+let watermelon = document.querySelector('.watermelon')
+
+
+let cherryText = document.querySelector('.cherryText')
+
+if(teeth){
+
 
 setTimeout(()=>{
 
 window.scroll(0,0)  
-
-
 
 
 
@@ -33,7 +39,7 @@ document.addEventListener('scroll',function(event){
 
 
 if(scrollPercent > 0.95){
-window.location.href ="file:///Users/jangaday11/Documents/Documents/GitHub/interactive2/Frykholm%202.html"
+window.location.href ="Frykholm%202.html"
 // console.log('hihi')
 
 }
@@ -43,11 +49,18 @@ window.location.href ="file:///Users/jangaday11/Documents/Documents/GitHub/inter
 
 
 
-
-
-
-
-
-
-
 },16)
+
+} else if(cherry){
+
+	cherry.addEventListener('mouseenter',function(event){
+		watermelon.classList.add('dim')
+		// cherryText.classList.add('show')
+	})
+
+	cherry.addEventListener('mouseleave',function(event){
+		watermelon.classList.remove('dim')
+	})
+
+
+}
