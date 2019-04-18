@@ -35,10 +35,11 @@ body {
 .cherry {
   position: fixed;
   top:50px;
+  left: 0px;
   background: url(../final/cherry.svg)no-repeat;
   background-size: contain;
-  width: 95vw;
-  height: 95vh;
+  width: 92vw;
+  height: 92vh;
   transition: all .2s ease-in-out;
   transform-origin: 0%;
 
@@ -47,11 +48,11 @@ body {
 .watermelon {
   position: fixed;
   top:50px;
-  left:479px;
+  left:485px;
   background: url(../final/watermelon.svg)no-repeat;
   background-size: contain;
-  width: 96vw;
-  height: 96vh;
+  width: 92vw;
+  height: 92vh;
   transition: all .2s ease-in-out;
   transform-origin: 10%;
 }
@@ -59,11 +60,11 @@ body {
 .fruit {
   position: fixed;
   top:50px;
-  left:962px;
+  left:976px;
   background: url(../final/fruit.svg)no-repeat;
   background-size: contain;
-  width: 94vw;
-  height: 94vh;
+  width: 92vw;
+  height: 92vh;
   transition: all .2s ease-in-out;
 }
 
