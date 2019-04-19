@@ -10,9 +10,17 @@ let cherry = document.querySelector('.cherry')
 let watermelon = document.querySelector('.watermelon')
 let fruit = document.querySelector('.fruit')
 
-let cherrytext = document.querySelector('.cherrytext')
-let watermelontext = document.querySelector('.watermelontext')
-let fruittext = document.querySelector('.fruittext')
+let steven = document.querySelector('.steven')
+let summer = document.querySelector('.summer')
+
+let cherrytexttitle = document.querySelector('.cherrytexttitle')
+let cherrytextinfo = document.querySelector('.cherrytextinfo')
+
+let watermelontexttitle = document.querySelector('.watermelontexttitle')
+let watermelontextinfo = document.querySelector('.watermelontextinfo')
+
+let fruittexttitle = document.querySelector('.fruittexttitle')
+let fruittextinfo = document.querySelector('.fruittextinfo')
 
 if(teeth){
 
@@ -61,30 +69,56 @@ window.location.href ="Frykholm%202.html"
 
 	window.addEventListener('mousemove',(e)=>{
 		cherry.classList.remove('hover')
+		
 		fruit.classList.remove('hover')
+		
 		watermelon.classList.remove('hover')
+		
 		watermelon.classList.remove('dim')
+		
 		fruit.classList.remove('dim')
+		
 		cherry.classList.remove('dim')
-		cherrytext.classList.remove('show')
-		watermelontext.classList.remove('show')
-		fruittext.classList.remove('show')
+
+		steven.classList.remove('dim')
+
+		summer.classList.remove('dim')
+		
+		cherrytexttitle.classList.remove('show')
+		
+		cherrytextinfo.classList.remove('show')
+		
+		watermelontexttitle.classList.remove('show')
+
+		watermelontextinfo.classList.remove('show')
+		
+		fruittexttitle.classList.remove('show')
+
+		fruittextinfo.classList.remove('show')
 
 		if(e.clientX < 475){
 			cherry.classList.add('hover')
 			watermelon.classList.add('dim')
 			fruit.classList.add('dim')
-			cherrytext.classList.add('show')
+			steven.classList.add('dim')
+			summer.classList.add('dim')
+			cherrytexttitle.classList.add('show')
+			cherrytextinfo.classList.add('show')
 		} else if(e.clientX < 950){
 			watermelon.classList.add('hover')
 			cherry.classList.add('dim')
 			fruit.classList.add('dim')
-			watermelontext.classList.add('show')
+			watermelontexttitle.classList.add('show')
+			watermelontextinfo.classList.add('show')
+			steven.classList.add('dim')
+			summer.classList.add('dim')
 		} else {
 			fruit.classList.add('hover')
 			cherry.classList.add('dim')
 			watermelon.classList.add('dim')
-			fruittext.classList.add('show')
+			fruittexttitle.classList.add('show')
+			steven.classList.add('dim')
+			summer.classList.add('dim')
 		}
 	})
 

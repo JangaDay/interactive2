@@ -96,7 +96,7 @@ body {
 
 
 
-.cherrytext {
+.cherrytexttitle {
   font-size: 20px;
   position: absolute;
   top:155px;
@@ -106,26 +106,50 @@ body {
   display: none;
 }
 
-
-.watermelontext {
+.cherrytextinfo {
   font-size: 15px;
   position: absolute;
-  top:22px;
-  left:600px;
+  top:208px;
+  left:562px;
   color: white;
   z-index: -1;
   display: none;
 }
 
 
-.fruittext {
-  font-size: 15px;
+.watermelontexttitle {
+  font-size: 20px;
   position: absolute;
-  top:22px;
-  left:600px;
+  top:155px;
+  left:98px;
   color: white;
   z-index: -1;
   display: none;
+  text-align: right;
+}
+
+
+.watermelontextinfo {
+  font-size: 15px;
+  position: absolute;
+  top:208px;
+  left:162px;
+  color: white;
+  z-index: -1;
+  display: none;
+  text-align: right; 
+}
+
+
+.fruittexttitle {
+  font-size: 20px;
+  position: absolute;
+  top:155px;
+  left:560px;
+  color: white;
+  z-index: -1;
+  display: none;
+  text-align: right;
 }
 
 .show {
