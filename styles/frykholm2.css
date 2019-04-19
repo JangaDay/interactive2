@@ -97,10 +97,10 @@ body {
 
 
 .cherrytext {
-  font-size: 15px;
+  font-size: 20px;
   position: absolute;
-  top:22px;
-  left:600px;
+  top:155px;
+  left:562px;
   color: white;
   z-index: -1;
   display: none;
@@ -138,5 +138,5 @@ display: block !important;
 
 .dim {
 
-  opacity:.3;
+  opacity:.2;
 }
