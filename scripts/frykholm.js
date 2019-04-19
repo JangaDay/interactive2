@@ -117,6 +117,7 @@ window.location.href ="Frykholm%202.html"
 			cherry.classList.add('dim')
 			watermelon.classList.add('dim')
 			fruittexttitle.classList.add('show')
+			fruittextinfo.classList.add('show')
 			steven.classList.add('dim')
 			summer.classList.add('dim')
 		}

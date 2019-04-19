@@ -145,12 +145,25 @@ body {
   font-size: 20px;
   position: absolute;
   top:155px;
-  left:560px;
+  left:548px;
   color: white;
   z-index: -1;
   display: none;
   text-align: right;
 }
+
+
+.fruittextinfo {
+  font-size: 15px;
+  position: absolute;
+  top:208px;
+  left:612px;
+  color: white;
+  z-index: -1;
+  display: none;
+  text-align: right;
+}
+
 
 .show {
 display: block !important;
