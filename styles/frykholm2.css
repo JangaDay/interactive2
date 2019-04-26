@@ -217,7 +217,7 @@ scroll-snap-type: x mandatory;
   
 
   .steven {
-  font-size: 22px;
+  font-size: 20px;
   position: fixed;
   top:17px;
   left:19px;
@@ -226,10 +226,10 @@ scroll-snap-type: x mandatory;
 }
 
 .summer {
-  font-size: 15px;
+  font-size: 12px;
   position: fixed;
-  top:22px;
-  left:240px;
+  top:24px;
+  left:225px;
   color: white;
   z-index: -1;
 }
@@ -240,8 +240,8 @@ scroll-snap-type: x mandatory;
   left: 25px;
   background: url(../final/cherry.svg)no-repeat;
   background-size: contain;
-  width: 392px;
-  height: 628px;
+  width: 360px;
+  height: 600px;
   transition: all .2s ease-in-out;
   transform-origin: -10%;
   scroll-snap-align: center;
@@ -255,8 +255,8 @@ scroll-snap-type: x mandatory;
   left:485px;
   background: url(../final/watermelon.svg)no-repeat;
   background-size: contain;
-  width: 392px;
-  height: 628px;
+  width: 365px;
+  height: 605px;
   transition: all .2s ease-in-out;
   transform-origin: 18%;
   scroll-snap-align: center;
@@ -264,13 +264,13 @@ scroll-snap-type: x mandatory;
 
 .fruit {
   position: absolute;
-  padding-left: 25px;
+  padding-left: 45px;
   top:50px;
   left:960px;
   background: url(../final/fruit.svg)no-repeat;
   background-size: contain;
-  width: 392px;
-  height: 623px;
+  width: 335px;
+  height: 575px;
   transition: all .2s ease-in-out;
   scroll-snap-align: start;
   
