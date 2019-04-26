@@ -43,3 +43,29 @@ body {
 
 
 
+@media only screen and (max-width: 600px) {
+
+
+  .teeth {
+  position: absolute;
+  left:-339px;
+  background: url(../final/teeth.svg)no-repeat;
+  background-size: contain;
+  width: 250vw;
+  height: 250vh;
+}
+
+.corn {
+  position: fixed;
+  top: 450px;
+  background: url(../final/corn.svg)no-repeat;
+  background-size: contain;
+  width: 400vw;
+  height: 400vw;
+}
+
+
+
+}
+
+
