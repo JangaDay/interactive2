@@ -12,6 +12,18 @@ body {
 
 
 
+.teeth {
+  position: fixed;
+  top:-575px;
+  background: url(../final/teeth.svg)no-repeat;
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+
+
 .steven {
   font-size: 22px;
   position: absolute;
@@ -69,30 +81,33 @@ body {
 }
 
 
-.cherry.hover {
-  transform: scale(1.1);
-  z-index: 1;
+
+@media only screen and (min-width: 600px) {
+
+  .cherry.hover {
+    transform: scale(1.1);
+    z-index: 1;
 
 
 
+  }
+
+
+  .watermelon.hover {
+    transform: scale(1.1);
+    z-index: 1;
+
+
+
+  }
+
+  .fruit.hover {
+    transform: scale(1.1);
+    z-index: 1;
+
+
+  }
 }
-
-
-.watermelon.hover {
-  transform: scale(1.1);
-  z-index: 1;
-
-
-
-}
-
-.fruit.hover {
-  transform: scale(1.1);
-  z-index: 1;
-
-
-}
-
 
 
 
@@ -177,3 +192,104 @@ display: block !important;
 
   opacity:.2;
 }
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+  body {
+  margin:-1px;
+  background: black;
+  font-family: CooperBlackStd, Helvetica, serif;
+  height: 100vh;
+scroll-snap-type: x mandatory;
+
+}
+
+  
+
+  .steven {
+  font-size: 22px;
+  position: fixed;
+  top:17px;
+  left:19px;
+  color: white;
+  z-index: -1;
+}
+
+.summer {
+  font-size: 15px;
+  position: fixed;
+  top:22px;
+  left:240px;
+  color: white;
+  z-index: -1;
+}
+
+  .cherry {
+  position: absolute;
+  top:50px;
+  left: 25px;
+  background: url(../final/cherry.svg)no-repeat;
+  background-size: contain;
+  width: 392px;
+  height: 628px;
+  transition: all .2s ease-in-out;
+  transform-origin: -10%;
+  scroll-snap-align: center;
+ 
+
+}
+
+.watermelon {
+  position: absolute;
+  top:50px;
+  left:485px;
+  background: url(../final/watermelon.svg)no-repeat;
+  background-size: contain;
+  width: 392px;
+  height: 628px;
+  transition: all .2s ease-in-out;
+  transform-origin: 18%;
+  scroll-snap-align: center;
+}
+
+.fruit {
+  position: absolute;
+  padding-left: 25px;
+  top:50px;
+  left:960px;
+  background: url(../final/fruit.svg)no-repeat;
+  background-size: contain;
+  width: 392px;
+  height: 628px;
+  transition: all .2s ease-in-out;
+  scroll-snap-align: start;
+  
+}
+
+
+.cherrytexttitle {
+  font-size: 15px;
+  position: absolute;
+  top:695px;
+  left:29px;
+  color: white;
+  z-index: -1;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+  }

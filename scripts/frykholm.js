@@ -22,7 +22,7 @@ let watermelontextinfo = document.querySelector('.watermelontextinfo')
 let fruittexttitle = document.querySelector('.fruittexttitle')
 let fruittextinfo = document.querySelector('.fruittextinfo')
 
-if(teeth){
+if(!cherry){
 
 
 setTimeout(()=>{
@@ -61,7 +61,9 @@ window.location.href ="Frykholm%202.html"
 
 },16)
 
-} else if(cherry){
+}
+
+if(cherry){
 
 
 
@@ -83,6 +85,8 @@ window.location.href ="Frykholm%202.html"
 		steven.classList.remove('dim')
 
 		summer.classList.remove('dim')
+
+		teeth.classList.remove('dim')
 		
 		cherrytexttitle.classList.remove('show')
 		
@@ -96,30 +100,39 @@ window.location.href ="Frykholm%202.html"
 
 		fruittextinfo.classList.remove('show')
 
-		if(e.clientX < 475){
-			cherry.classList.add('hover')
-			watermelon.classList.add('dim')
-			fruit.classList.add('dim')
-			steven.classList.add('dim')
-			summer.classList.add('dim')
-			cherrytexttitle.classList.add('show')
-			cherrytextinfo.classList.add('show')
-		} else if(e.clientX < 950){
-			watermelon.classList.add('hover')
-			cherry.classList.add('dim')
-			fruit.classList.add('dim')
-			watermelontexttitle.classList.add('show')
-			watermelontextinfo.classList.add('show')
-			steven.classList.add('dim')
-			summer.classList.add('dim')
-		} else {
-			fruit.classList.add('hover')
-			cherry.classList.add('dim')
-			watermelon.classList.add('dim')
-			fruittexttitle.classList.add('show')
-			fruittextinfo.classList.add('show')
-			steven.classList.add('dim')
-			summer.classList.add('dim')
+		let thirdOfWindow = 475 //window.innerWidth/3
+		
+
+		if(window.innerWidth > 600){
+
+			if(e.clientX < thirdOfWindow - 25){
+				cherry.classList.add('hover')
+				watermelon.classList.add('dim')
+				fruit.classList.add('dim')
+				steven.classList.add('dim')
+				summer.classList.add('dim')
+				cherrytexttitle.classList.add('show')
+				cherrytextinfo.classList.add('show')
+				teeth.classList.add('dim')
+			} else if(e.clientX > thirdOfWindow && e.clientX < (2 * thirdOfWindow)){
+				watermelon.classList.add('hover')
+				cherry.classList.add('dim')
+				fruit.classList.add('dim')
+				watermelontexttitle.classList.add('show')
+				watermelontextinfo.classList.add('show')
+				steven.classList.add('dim')
+				summer.classList.add('dim')
+				teeth.classList.add('dim')
+			} else if(e.clientX > 2 * thirdOfWindow + 25){
+				fruit.classList.add('hover')
+				cherry.classList.add('dim')
+				watermelon.classList.add('dim')
+				fruittexttitle.classList.add('show')
+				fruittextinfo.classList.add('show')
+				steven.classList.add('dim')
+				summer.classList.add('dim')
+				teeth.classList.add('dim')
+			}
 		}
 	})
 
