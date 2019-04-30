@@ -198,7 +198,7 @@ display: block !important;
 
 
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 600px) {
 
   body {
   margin:-1px;
@@ -280,7 +280,7 @@ scroll-snap-type: x mandatory;
 .cherrytexttitle {
   font-size: 15px;
   position: absolute;
-  top:695px;
+  top:648px;
   left:29px;
   color: white;
   z-index: -1;
@@ -291,7 +291,7 @@ scroll-snap-type: x mandatory;
 .watermelontexttitle {
   font-size: 15px;
   position: absolute;
-  top:695px;
+  top:648px;
   left:calc(100vw + 47px);
   color: white;
   z-index: -1;
@@ -304,7 +304,7 @@ scroll-snap-type: x mandatory;
 .fruittexttitle {
   font-size: 15px;
   position: absolute;
-  top:695px;
+  top:648px;
   left:calc(100vw + 519px);
   color: white;
   z-index: -1;
