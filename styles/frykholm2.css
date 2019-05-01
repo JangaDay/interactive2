@@ -280,7 +280,7 @@ scroll-snap-type: x mandatory;
 .cherrytexttitle {
   font-size: 15px;
   position: absolute;
-  top:648px;
+  top:638px;
   left:29px;
   color: white;
   z-index: -1;
@@ -291,8 +291,8 @@ scroll-snap-type: x mandatory;
 .watermelontexttitle {
   font-size: 15px;
   position: absolute;
-  top:648px;
-  left:calc(100vw + 47px);
+  top:638px;
+  left:calc(100vw + 86px);
   color: white;
   z-index: -1;
   display: block;
@@ -304,8 +304,8 @@ scroll-snap-type: x mandatory;
 .fruittexttitle {
   font-size: 15px;
   position: absolute;
-  top:648px;
-  left:calc(100vw + 519px);
+  top:638px;
+  left:calc(100vw + 563px);
   color: white;
   z-index: -1;
   display: block;
@@ -314,6 +314,44 @@ scroll-snap-type: x mandatory;
 }
 
 
+.cherrytextinfo {
+  font-size: 10px;
+  position: absolute;
+  top:689px;
+  left:29px;
+  color: white;
+  z-index: -1;
+  display: block;
+  line-height: .75;
+}
+
+
+.watermelontextinfo {
+  font-size: 10px;
+  position: absolute;
+  top:689px;
+  left:calc(100vw + 86px);
+  color: white;
+  z-index: -1;
+  display: block;
+  text-align: left;
+  width: 80vw; 
+  line-height: .75;
+}
+
+
+.fruittextinfo {
+  font-size: 10px;
+  position: absolute;
+  top:689px;
+  left:calc(100vw + 563px);
+  color: white;
+  z-index: -1;
+  display: block;
+  text-align: left;
+  width: 80vw;
+  line-height: .75;
+}
 
 
 
