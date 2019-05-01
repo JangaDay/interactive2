@@ -31,6 +31,27 @@ window.scroll(0,0)
 
 
 
+let cornTop = 515
+
+if(window.innerWidth < 600){
+
+	cornTop = 350
+} else {
+	cornTop = 515
+}
+
+window.addEventListener('resize',function(){
+	if(window.innerWidth < 600){
+
+		cornTop = 350
+	} else {
+		cornTop = 515
+	}
+})
+
+
+
+
 document.addEventListener('scroll',function(event){
   console.log(window.scrollY)
 
@@ -44,7 +65,7 @@ document.addEventListener('scroll',function(event){
 
   teeth.style.top = -(scrollPercent * 400) + 'px'
 
-  corn.style.top = (515 + (scrollPercent * 515)) + 'px'
+  corn.style.top = (cornTop + (scrollPercent * cornTop)) + 'px'
 
 
 
