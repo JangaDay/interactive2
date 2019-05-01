@@ -35,7 +35,7 @@ let cornTop = 515
 
 if(window.innerWidth < 600){
 
-	cornTop = 350
+	cornTop = 345
 } else {
 	cornTop = 515
 }
@@ -43,7 +43,7 @@ if(window.innerWidth < 600){
 window.addEventListener('resize',function(){
 	if(window.innerWidth < 600){
 
-		cornTop = 350
+		cornTop = 345
 	} else {
 		cornTop = 515
 	}
